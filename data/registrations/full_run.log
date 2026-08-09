@@ -1,0 +1,24 @@
+======================================================================
+🚀 FULL AUTONOMOUS WORKER — Working for Hasan
+======================================================================
+Email: mra494956@gmail.com
+Phone: 009647740901271
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/.pi/skills/antidetect-stack/lib/full_autonomous.py", line 385, in <module>
+    asyncio.run(main())
+    ~~~~~~~~~~~^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/asyncio/runners.py", line 205, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/asyncio/runners.py", line 128, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/.pi/skills/antidetect-stack/lib/full_autonomous.py", line 306, in main
+    await browser.start()
+  File "/data/data/com.termux/files/home/.pi/skills/antidetect-stack/lib/nodriver_automation.py", line 167, in start
+    import nodriver as nd
+ModuleNotFoundError: No module named 'nodriver'
