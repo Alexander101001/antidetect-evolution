@@ -1,0 +1,284 @@
+{
+  "total_score": 53.25,
+  "tests": [
+    {
+      "test_name": "Sannysoft Anti-Bot",
+      "url": "https://bot.sannysoft.com/",
+      "score": 30,
+      "issues": [
+        "navigator.plugins is empty (real Chrome has 3+ plugins)",
+        "window.chrome.runtime missing (real Chrome has it)",
+        "WebGL renderer = SwiftShader (CPU fallback, suspicious)",
+        "Sannysoft reports 2 failed tests"
+      ],
+      "raw_data": {
+        "webdriver": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "platform": "Linux x86_64",
+        "languages": [
+          "en-US"
+        ],
+        "hardwareConcurrency": 8,
+        "deviceMemory": 8,
+        "webglVendor": {
+          "vendor": "Google Inc. (Google)",
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)"
+        },
+        "canvasHash": "//sD9DswAAAAZJREFUAwAuuqpLi6AE3gAAAABJRU5ErkJggg==",
+        "hasChrome": "undefined",
+        "hasChromeRuntime": "undefined",
+        "pluginCount": 0
+      }
+    },
+    {
+      "test_name": "FingerprintJS Demo",
+      "url": "https://fingerprintjs.github.io/fingerprintjs/",
+      "score": 60,
+      "issues": [
+        "navigator.plugins is empty (real Chrome has 3+ plugins)",
+        "window.chrome.runtime missing (real Chrome has it)",
+        "WebGL renderer = SwiftShader (CPU fallback, suspicious)"
+      ],
+      "raw_data": {
+        "webdriver": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "platform": "Linux x86_64",
+        "languages": [
+          "en-US"
+        ],
+        "hardwareConcurrency": 8,
+        "deviceMemory": 8,
+        "webglVendor": {
+          "vendor": "Google Inc. (Google)",
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)"
+        },
+        "canvasHash": "//sD9DswAAAAZJREFUAwAuuqpLi6AE3gAAAABJRU5ErkJggg==",
+        "hasChrome": "undefined",
+        "hasChromeRuntime": "undefined",
+        "pluginCount": 0
+      }
+    },
+    {
+      "test_name": "BrowserLeaks Canvas",
+      "url": "https://browserleaks.com/canvas",
+      "score": 60,
+      "issues": [
+        "navigator.plugins is empty (real Chrome has 3+ plugins)",
+        "window.chrome.runtime missing (real Chrome has it)",
+        "WebGL renderer = SwiftShader (CPU fallback, suspicious)"
+      ],
+      "raw_data": {
+        "webdriver": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "platform": "Linux x86_64",
+        "languages": [
+          "en-US"
+        ],
+        "hardwareConcurrency": 8,
+        "deviceMemory": 8,
+        "webglVendor": {
+          "vendor": "Google Inc. (Google)",
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)"
+        },
+        "canvasHash": "//sD9DswAAAAZJREFUAwAuuqpLi6AE3gAAAABJRU5ErkJggg==",
+        "hasChrome": "undefined",
+        "hasChromeRuntime": "undefined",
+        "pluginCount": 0
+      }
+    },
+    {
+      "test_name": "BrowserLeaks WebGL",
+      "url": "https://browserleaks.com/webgl",
+      "score": 60,
+      "issues": [
+        "navigator.plugins is empty (real Chrome has 3+ plugins)",
+        "window.chrome.runtime missing (real Chrome has it)",
+        "WebGL renderer = SwiftShader (CPU fallback, suspicious)"
+      ],
+      "raw_data": {
+        "webdriver": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "platform": "Linux x86_64",
+        "languages": [
+          "en-US"
+        ],
+        "hardwareConcurrency": 8,
+        "deviceMemory": 8,
+        "webglVendor": {
+          "vendor": "Google Inc. (Google)",
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)"
+        },
+        "canvasHash": "//sD9DswAAAAZJREFUAwAuuqpLi6AE3gAAAABJRU5ErkJggg==",
+        "hasChrome": "undefined",
+        "hasChromeRuntime": "undefined",
+        "pluginCount": 0
+      }
+    },
+    {
+      "test_name": "BrowserLeaks JS",
+      "url": "https://browserleaks.com/javascript",
+      "score": 60,
+      "issues": [
+        "navigator.plugins is empty (real Chrome has 3+ plugins)",
+        "window.chrome.runtime missing (real Chrome has it)",
+        "WebGL renderer = SwiftShader (CPU fallback, suspicious)"
+      ],
+      "raw_data": {
+        "webdriver": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "platform": "Linux x86_64",
+        "languages": [
+          "en-US"
+        ],
+        "hardwareConcurrency": 8,
+        "deviceMemory": 8,
+        "webglVendor": {
+          "vendor": "Google Inc. (Google)",
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)"
+        },
+        "canvasHash": "//sD9DswAAAAZJREFUAwAuuqpLi6AE3gAAAABJRU5ErkJggg==",
+        "hasChrome": "undefined",
+        "hasChromeRuntime": "undefined",
+        "pluginCount": 0
+      }
+    },
+    {
+      "test_name": "BrowserLeaks WebRTC",
+      "url": "https://browserleaks.com/webrtc",
+      "score": 60,
+      "issues": [
+        "navigator.plugins is empty (real Chrome has 3+ plugins)",
+        "window.chrome.runtime missing (real Chrome has it)",
+        "WebGL renderer = SwiftShader (CPU fallback, suspicious)"
+      ],
+      "raw_data": {
+        "webdriver": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "platform": "Linux x86_64",
+        "languages": [
+          "en-US"
+        ],
+        "hardwareConcurrency": 8,
+        "deviceMemory": 8,
+        "webglVendor": {
+          "vendor": "Google Inc. (Google)",
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)"
+        },
+        "canvasHash": "//sD9DswAAAAZJREFUAwAuuqpLi6AE3gAAAABJRU5ErkJggg==",
+        "hasChrome": "undefined",
+        "hasChromeRuntime": "undefined",
+        "pluginCount": 0
+      }
+    },
+    {
+      "test_name": "BrowserLeaks Fonts",
+      "url": "https://browserleaks.com/fonts",
+      "score": 60,
+      "issues": [
+        "navigator.plugins is empty (real Chrome has 3+ plugins)",
+        "window.chrome.runtime missing (real Chrome has it)",
+        "WebGL renderer = SwiftShader (CPU fallback, suspicious)"
+      ],
+      "raw_data": {
+        "webdriver": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "platform": "Linux x86_64",
+        "languages": [
+          "en-US"
+        ],
+        "hardwareConcurrency": 8,
+        "deviceMemory": 8,
+        "webglVendor": {
+          "vendor": "Google Inc. (Google)",
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)"
+        },
+        "canvasHash": "//sD9DswAAAAZJREFUAwAuuqpLi6AE3gAAAABJRU5ErkJggg==",
+        "hasChrome": "undefined",
+        "hasChromeRuntime": "undefined",
+        "pluginCount": 0
+      }
+    },
+    {
+      "test_name": "Pixelscan",
+      "url": "https://pixelscan.net/",
+      "score": 60,
+      "issues": [
+        "navigator.plugins is empty (real Chrome has 3+ plugins)",
+        "window.chrome.runtime missing (real Chrome has it)",
+        "WebGL renderer = SwiftShader (CPU fallback, suspicious)"
+      ],
+      "raw_data": {
+        "webdriver": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "platform": "Linux x86_64",
+        "languages": [
+          "en-US"
+        ],
+        "hardwareConcurrency": 8,
+        "deviceMemory": 8,
+        "webglVendor": {
+          "vendor": "Google Inc. (Google)",
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)"
+        },
+        "canvasHash": "//sD9DswAAAAZJREFUAwAuuqpLi6AE3gAAAABJRU5ErkJggg==",
+        "hasChrome": "undefined",
+        "hasChromeRuntime": "undefined",
+        "pluginCount": 0
+      }
+    },
+    {
+      "test_name": "CreepJS",
+      "url": "https://abrahamjuliot.github.io/creepjs/",
+      "score": 45,
+      "issues": [
+        "navigator.plugins is empty (real Chrome has 3+ plugins)",
+        "window.chrome.runtime missing (real Chrome has it)",
+        "CreepJS detected headless mode"
+      ],
+      "raw_data": {
+        "webdriver": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "platform": "Linux x86_64",
+        "languages": [
+          "en-US"
+        ],
+        "hardwareConcurrency": 8,
+        "deviceMemory": 8,
+        "webglVendor": null,
+        "canvasHash": "//sD9DswAAAAZJREFUAwAuuqpLi6AE3gAAAABJRU5ErkJggg==",
+        "hasChrome": "undefined",
+        "hasChromeRuntime": "undefined",
+        "pluginCount": 0
+      }
+    }
+  ],
+  "passed": 0,
+  "failed": 2,
+  "critical_issues": [
+    "Sannysoft Anti-Bot: 30.0%",
+    "CreepJS: 45.0%"
+  ],
+  "recommendations": [
+    "\u26a0\ufe0f  Improve stealth with:",
+    "   - Patchright over Playwright (C++ level patches)",
+    "   - Realistic canvas/WebGL/\u97f3\u9891 fingerprints",
+    "   - Human-like mouse movements and typing",
+    "   - Sannysoft Anti-Bot: Inject realistic plugin list",
+    "   - Sannysoft Anti-Bot: Use real GPU, not CPU SwiftShader",
+    "   - FingerprintJS Demo: Inject realistic plugin list",
+    "   - FingerprintJS Demo: Use real GPU, not CPU SwiftShader",
+    "   - BrowserLeaks Canvas: Inject realistic plugin list",
+    "   - BrowserLeaks Canvas: Use real GPU, not CPU SwiftShader",
+    "   - BrowserLeaks WebGL: Inject realistic plugin list",
+    "   - BrowserLeaks WebGL: Use real GPU, not CPU SwiftShader",
+    "   - BrowserLeaks JS: Inject realistic plugin list",
+    "   - BrowserLeaks JS: Use real GPU, not CPU SwiftShader",
+    "   - BrowserLeaks WebRTC: Inject realistic plugin list",
+    "   - BrowserLeaks WebRTC: Use real GPU, not CPU SwiftShader",
+    "   - BrowserLeaks Fonts: Inject realistic plugin list",
+    "   - BrowserLeaks Fonts: Use real GPU, not CPU SwiftShader",
+    "   - Pixelscan: Inject realistic plugin list",
+    "   - Pixelscan: Use real GPU, not CPU SwiftShader",
+    "   - CreepJS: Inject realistic plugin list"
+  ]
+}

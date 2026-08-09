@@ -1,0 +1,13 @@
+{
+  "platform": "the_internet_test",
+  "email": "test@myown.com",
+  "credentials": {
+    "email": "test@myown.com",
+    "password": "TestPass123!@#",
+    "username": "testuser",
+    "first_name": "Taylor",
+    "last_name": "Patel",
+    "full_name": "Sam Anderson"
+  },
+  "created_at": "2026-08-09 07:07:29"
+}

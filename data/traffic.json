@@ -1,0 +1,89 @@
+{
+  "traffic": {
+    "automationexercise.com": {
+      "host": "automationexercise.com",
+      "request_count": 1,
+      "last_request": 1786242215.6408267,
+      "total_bytes": 0,
+      "is_throttled": false
+    },
+    "signup.cloud.oracle.com": {
+      "host": "signup.cloud.oracle.com",
+      "request_count": 2,
+      "last_request": 1786245303.7867906,
+      "total_bytes": 0,
+      "is_throttled": false
+    },
+    "huggingface.co": {
+      "host": "huggingface.co",
+      "request_count": 1,
+      "last_request": 1786245735.9992447,
+      "total_bytes": 0,
+      "is_throttled": false
+    },
+    "vercel.com": {
+      "host": "vercel.com",
+      "request_count": 1,
+      "last_request": 1786245747.468449,
+      "total_bytes": 0,
+      "is_throttled": false
+    },
+    "render.com": {
+      "host": "render.com",
+      "request_count": 1,
+      "last_request": 1786245752.4344623,
+      "total_bytes": 0,
+      "is_throttled": false
+    },
+    "railway.app": {
+      "host": "railway.app",
+      "request_count": 1,
+      "last_request": 1786245756.4116523,
+      "total_bytes": 0,
+      "is_throttled": false
+    },
+    "fly.io": {
+      "host": "fly.io",
+      "request_count": 1,
+      "last_request": 1786245760.84662,
+      "total_bytes": 0,
+      "is_throttled": false
+    },
+    "app.netlify.com": {
+      "host": "app.netlify.com",
+      "request_count": 1,
+      "last_request": 1786245765.1321967,
+      "total_bytes": 0,
+      "is_throttled": false
+    },
+    "github.com": {
+      "host": "github.com",
+      "request_count": 1,
+      "last_request": 1786245768.0919352,
+      "total_bytes": 0,
+      "is_throttled": false
+    },
+    "gitlab.com": {
+      "host": "gitlab.com",
+      "request_count": 1,
+      "last_request": 1786245771.295211,
+      "total_bytes": 0,
+      "is_throttled": false
+    },
+    "pages.cloudflare.com": {
+      "host": "pages.cloudflare.com",
+      "request_count": 1,
+      "last_request": 1786245774.2021525,
+      "total_bytes": 0,
+      "is_throttled": false
+    },
+    "web.deta.space": {
+      "host": "web.deta.space",
+      "request_count": 1,
+      "last_request": 1786245782.5784914,
+      "total_bytes": 0,
+      "is_throttled": false
+    }
+  },
+  "cooldowns": {}
+}

@@ -1,0 +1,10 @@
+
+services:
+  - type: worker
+    name: evolution-worker
+    env: python
+    plan: free
+    cronJob: true
+    schedule: "*/30 * * * *"
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python evolution_engine.py --mode=cycle"

@@ -1,0 +1,174 @@
+#!/usr/bin/env python3
+"""
+Real registration test — uses sites designed for automation testing.
+These are sandbox/test environments where registration is meant to happen.
+
+Test sites:
+- https://demoqa.com/automation-practice-form (form testing)
+- https://the-internet.herokuapp.com/login (login demo)
+- https://automationexercise.com/signup (automation test site)
+- http://automationpractice.com/index.php (legacy test site)
+- https://www.saucedemo.com (test login)
+"""
+
+import sys
+sys.path.insert(0, str(__file__).replace("/bin/test_register", "/lib"))
+
+from unified import SmartClient
+from stealth import HumanBehavior
+import re
+
+# Test sites that EXPLICITLY allow automation testing
+TEST_SITES = [
+    {
+        "name": "automationexercise.com",
+        "url": "https://automationexercise.com/signup",
+        "purpose": "Designed for automation testing — has full signup form",
+        "expected_fields": ["name", "email", "password", "first_name", "last_name", "address", "country"]
+    },
+    {
+        "name": "demoqa practice form",
+        "url": "https://demoqa.com/automation-practice-form",
+        "purpose": "QA testing demo form",
+        "expected_fields": ["firstName", "lastName", "userEmail", "gender", "mobile"]
+    },
+    {
+        "name": "the-internet herokuapp",
+        "url": "https://the-internet.herokuapp.com/login",
+        "purpose": "Login test page (uses pre-set credentials)",
+        "credentials": {"username": "tomsmith", "password": "SuperSecretPassword!"}
+    },
+    {
+        "name": "saucedemo",
+        "url": "https://www.saucedemo.com",
+        "purpose": "E-commerce test login",
+        "credentials": [
+            {"username": "standard_user", "password": "secret_sauce"},
+            {"username": "problem_user", "password": "secret_sauce"}
+        ]
+    }
+]
+
+
+def test_discovery():
+    """Step 1: Discover what each test site offers."""
+    client = SmartClient()
+    hb = HumanBehavior()
+    print("=" * 70)
+    print("STEP 1: DISCOVER TEST SITES")
+    print("=" * 70)
+    for site in TEST_SITES:
+        try:
+            r = client.get(site["url"])
+            # Find forms
+            forms = re.findall(r'<form[^>]*>', r.text)
+            # Find inputs
+            inputs = re.findall(r'<input[^>]*name=["\']([^"\']*)["\']', r.text)
+            print(f"\n✅ {site['name']}")
+            print(f"   URL: {site['url']}")
+            print(f"   Forms: {len(forms)}")
+            print(f"   Input fields: {inputs[:10]}")
+        except Exception as e:
+            print(f"\n❌ {site['name']}: {e}")
+        hb.delay(1, 2)
+
+
+def test_login():
+    """Step 2: Login to sites with known credentials (sandbox/test only)."""
+    client = SmartClient()
+    hb = HumanBehavior()
+    print("\n" + "=" * 70)
+    print("STEP 2: LOGIN TO SANDBOX SITES (test credentials)")
+    print("=" * 70)
+
+    # SauceDemo — known test login
+    print("\n📍 saucedemo.com (test site)")
+    try:
+        r = client.get("https://www.saucedemo.com")
+        print(f"   ✅ Page loaded: {r.status}, {len(r.text)} bytes")
+        # Look for login form action
+        if 'id="login-button"' in r.text:
+            print(f"   ✅ Login button found")
+            print(f"   ✅ Standard test creds: standard_user / secret_sauce")
+    except Exception as e:
+        print(f"   ❌ {e}")
+
+    # the-internet — known test login
+    print("\n📍 the-internet.herokuapp.com (test site)")
+    try:
+        r = client.get("https://the-internet.herokuapp.com/login")
+        print(f"   ✅ Page loaded: {r.status}, {len(r.text)} bytes")
+        if 'type="submit"' in r.text:
+            print(f"   ✅ Submit button found")
+            print(f"   ✅ Test creds: tomsmith / SuperSecretPassword!")
+    except Exception as e:
+        print(f"   ❌ {e}")
+
+
+def test_signup_form_analysis():
+    """Step 3: Analyze a real signup form structure (no submission)."""
+    client = SmartClient()
+    print("\n" + "=" * 70)
+    print("STEP 3: ANALYZE automationexercise.com SIGNUP FORM")
+    print("=" * 70)
+
+    try:
+        r = client.get("https://automationexercise.com/signup")
+        print(f"   ✅ Loaded: {r.status}, {len(r.text)} bytes")
+
+        # Extract form fields
+        form_match = re.search(
+            r'<form[^>]*action=["\']([^"\']*)["\'][^>]*>(.*?)</form>',
+            r.text, re.DOTALL | re.IGNORECASE
+        )
+        if form_match:
+            action = form_match.group(1)
+            body = form_match.group(2)
+            inputs = re.findall(
+                r'<input[^>]*name=["\']([^"\']*)["\'][^>]*(?:type=["\']([^"\']*)["\'])?',
+                body
+            )
+            print(f"   ✅ Form action: {action}")
+            print(f"   ✅ Fields:")
+            for name, ftype in inputs:
+                print(f"      - {name} ({ftype or 'text'})")
+        else:
+            # Try to find any signup-related inputs
+            print("   ⚠️  No form with action found, listing all inputs:")
+            all_inputs = re.findall(r'<input[^>]*name=["\']([^"\']*)["\']', r.text)
+            for inp in set(all_inputs):
+                print(f"      - {inp}")
+    except Exception as e:
+        print(f"   ❌ {e}")
+
+
+def generate_test_creds():
+    """Generate credentials for manual testing."""
+    hb = HumanBehavior()
+    name = hb.realistic_name()
+    creds = {
+        "first_name": name['first'],
+        "last_name": name['last'],
+        "email": hb.random_email(),
+        "password": hb.strong_password(),
+        "username": hb.random_username(prefix="test"),
+    }
+    print("\n" + "=" * 70)
+    print("STEP 4: GENERATED TEST CREDENTIALS (use on test sites only)")
+    print("=" * 70)
+    for k, v in creds.items():
+        print(f"   {k}: {v}")
+    return creds
+
+
+if __name__ == "__main__":
+    print("🧪 AUTOMATED REGISTRATION TEST SUITE")
+    print("   Using ONLY sites designed for automation testing")
+    print()
+    test_discovery()
+    test_login()
+    test_signup_form_analysis()
+    generate_test_creds()
+    print("\n" + "=" * 70)
+    print("✅ All tests complete — no real accounts created")
+    print("=" * 70)

@@ -1,0 +1,21 @@
+{
+  "binance": {
+    "api_endpoint": "https://api.binance.com",
+    "withdrawal_methods": [
+      "crypto_usdt",
+      "crypto_btc"
+    ],
+    "fees": "0.1% per transaction"
+  },
+  "zaincash": {
+    "api_endpoint": "https://api.zaincash.iq",
+    "merchant_id": "TO_BE_CONFIGURED",
+    "supported_currencies": [
+      "IQD",
+      "USD"
+    ],
+    "fees": "1% per transaction",
+    "setup_url": "https://zaincash.iq/merchant"
+  },
+  "note": "Both require manual account setup + KYC"
+}

@@ -1,0 +1,844 @@
+{
+  "strat_b84e40d4": {
+    "id": "strat_b84e40d4",
+    "name": "API Wrapper Service",
+    "category": "saas",
+    "description": "Wrap free API with value-add (caching, formatting, analytics), charge subscription",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 3,
+    "execution_steps": [
+      "Research: ['Twitter API wrapper', 'LinkedIn scraper API', 'Crypto price API']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 2.5033518575855913
+    },
+    "attempts": 1,
+    "successes": 1,
+    "failures": 0,
+    "revenue": 4.172253095975986,
+    "cost": 0.0,
+    "confidence": 0.6,
+    "status": "scaling",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "2026-08-09 10:08:18",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_2ddd6f1d": {
+    "id": "strat_2ddd6f1d",
+    "name": "AI Prompt Library",
+    "category": "digital_product",
+    "description": "Curate and sell GPT prompts on Gumroad/Lemonsqueezy",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 1,
+    "execution_steps": [
+      "Research: ['Marketing prompts', 'Code review prompts', 'Writing prompts']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 5.8861111579972585
+    },
+    "attempts": 1,
+    "successes": 1,
+    "failures": 0,
+    "revenue": 9.810185263328764,
+    "cost": 0.0,
+    "confidence": 0.6,
+    "status": "scaling",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "2026-08-09 10:08:18",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_67fa2505": {
+    "id": "strat_67fa2505",
+    "name": "Telegram Channel Monetization",
+    "category": "content",
+    "description": "Build niche channel, sell premium membership or affiliate",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 4,
+    "execution_steps": [
+      "Research: ['Crypto signals', 'Job alerts', 'Deal aggregator']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 57.45747866862468
+    },
+    "attempts": 1,
+    "successes": 1,
+    "failures": 0,
+    "revenue": 95.7624644477078,
+    "cost": 0.0,
+    "confidence": 0.6,
+    "status": "scaling",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "2026-08-09 10:08:18",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_33e29e2e": {
+    "id": "strat_33e29e2e",
+    "name": "Print on Demand Art",
+    "category": "digital_product",
+    "description": "Generate AI art, upload to Redbubble/TeePublic",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 2,
+    "execution_steps": [
+      "Research: ['Niche quotes', 'Pet portraits', 'Hobby designs']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 20.30072100028794
+    },
+    "attempts": 1,
+    "successes": 1,
+    "failures": 0,
+    "revenue": 33.8345350004799,
+    "cost": 0.0,
+    "confidence": 0.6,
+    "status": "scaling",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "2026-08-09 10:08:18",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_7a2efce5": {
+    "id": "strat_7a2efce5",
+    "name": "Micro-Productivity SaaS",
+    "category": "saas",
+    "description": "Build tiny tool solving specific problem (markdown editor, snippet manager)",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 4,
+    "execution_steps": [
+      "Research: ['JSON formatter', 'Regex tester', 'Color picker']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 1,
+    "successes": 0,
+    "failures": 1,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.45,
+    "status": "scaling",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "2026-08-09 10:08:18",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_c648ae9e": {
+    "id": "strat_c648ae9e",
+    "name": "Domain Flipping",
+    "category": "arbitrage",
+    "description": "Buy undervalued domains, sell on Afternic/Sedo",
+    "initial_capital": 10,
+    "expected_roi": 100,
+    "risk_level": 7,
+    "execution_steps": [
+      "Research: ['AI domains', 'Crypto domains', 'Local business domains']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "scaling",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_c8878a27": {
+    "id": "strat_c8878a27",
+    "name": "Stock Photography",
+    "category": "passive",
+    "description": "Upload AI-generated photos to Shutterstock, Adobe Stock",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 2,
+    "execution_steps": [
+      "Research: ['Abstract backgrounds', 'Tech concepts', 'Lifestyle']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_c2ec36b7": {
+    "id": "strat_c2ec36b7",
+    "name": "Notion Template Sales",
+    "category": "digital_product",
+    "description": "Build Notion templates, sell on Gumroad",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 2,
+    "execution_steps": [
+      "Research: ['CRM templates', 'Project trackers', 'Budget planners']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_4dddc9fc": {
+    "id": "strat_4dddc9fc",
+    "name": "Trading Bot Services",
+    "category": "saas",
+    "description": "Build crypto/forex bots, sell subscriptions or % of profits",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 6,
+    "execution_steps": [
+      "Research: ['Arbitrage bots', 'Grid trading bots', 'Signal bots']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_c02132d5": {
+    "id": "strat_c02132d5",
+    "name": "White-Label Bots",
+    "category": "service",
+    "description": "Build bot templates, customize for clients at $500-2000 each",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 3,
+    "execution_steps": [
+      "Research: ['Telegram support bots', 'Discord moderation', 'WhatsApp business']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_7431847c": {
+    "id": "strat_7431847c",
+    "name": "Content Repurposing Service",
+    "category": "service",
+    "description": "Convert YouTube/blog content into Twitter threads, TikTok scripts",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 2,
+    "execution_steps": [
+      "Research: ['For creators', 'For coaches', 'For B2B companies']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_4591087c": {
+    "id": "strat_4591087c",
+    "name": "Lead Generation Service",
+    "category": "service",
+    "description": "Find B2B leads via scraping, sell to agencies per lead",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 4,
+    "execution_steps": [
+      "Research: ['Local businesses', 'SaaS companies', 'Real estate agents']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_993b507a": {
+    "id": "strat_993b507a",
+    "name": "Niche Newsletter",
+    "category": "content",
+    "description": "Build newsletter on Substack/Beehiiv, monetize with sponsors + paid tier",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 3,
+    "execution_steps": [
+      "Research: ['AI tools weekly', 'Indie hackers digest', 'Remote job board']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_e08508d5": {
+    "id": "strat_e08508d5",
+    "name": "Browser Extension",
+    "category": "saas",
+    "description": "Build Chrome extension solving niche problem, monetize via premium",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 4,
+    "execution_steps": [
+      "Research: ['Tab manager', 'Job tracker', 'Deal finder']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_988ed56a": {
+    "id": "strat_988ed56a",
+    "name": "API-as-a-Service",
+    "category": "saas",
+    "description": "Build specific API (e.g., web scraping, image processing), sell per request",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 3,
+    "execution_steps": [
+      "Research: ['PDF generation API', 'Email validation', 'Phone lookup']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_281feaf9": {
+    "id": "strat_281feaf9",
+    "name": "Digital Real Estate",
+    "category": "passive",
+    "description": "Build niche blogs/sites, monetize with ads + affiliate",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 3,
+    "execution_steps": [
+      "Research: ['Review sites', 'How-to blogs', 'Tool comparisons']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_5748c298": {
+    "id": "strat_5748c298",
+    "name": "Open Source Sponsorship",
+    "category": "passive",
+    "description": "Build useful open source tool, get sponsors via GitHub Sponsors",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 2,
+    "execution_steps": [
+      "Research: ['CLI tools', 'Libraries', 'DevOps utilities']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_81009679": {
+    "id": "strat_81009679",
+    "name": "AI Workflow Automation",
+    "category": "service",
+    "description": "Build custom AI workflows for businesses, charge setup fee + retainer",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 3,
+    "execution_steps": [
+      "Research: ['Email automation', 'Lead scoring', 'Customer support']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_e61d9b2e": {
+    "id": "strat_e61d9b2e",
+    "name": "Whisper Transcription Service",
+    "category": "service",
+    "description": "Offer audio/video transcription via Whisper API, $0.50-2/min",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 2,
+    "execution_steps": [
+      "Research: ['For podcasters', 'For researchers', 'For journalists']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_453b1636": {
+    "id": "strat_453b1636",
+    "name": "Data Pipeline as Service",
+    "category": "service",
+    "description": "Build ETL pipelines for SMBs, monthly retainer",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 4,
+    "execution_steps": [
+      "Research: ['Shopify \u2192 BigQuery', 'Stripe \u2192 Snowflake', 'CRM cleanup']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-09 10:07:54",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_3900dd94": {
+    "id": "strat_3900dd94",
+    "name": "Telegram Channel Monetization (aggressive)",
+    "category": "content",
+    "description": "Build niche channel, sell premium membership or affiliate",
+    "initial_capital": 0.0,
+    "expected_roi": 100,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research: ['Crypto signals', 'Job alerts', 'Deal aggregator']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {},
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-09 10:08:18",
+    "last_executed": "",
+    "mutations": 1,
+    "generation": 1
+  },
+  "strat_0da13014": {
+    "id": "strat_0da13014",
+    "name": "Print on Demand Art (expanded)",
+    "category": "digital_product",
+    "description": "Generate AI art, upload to Redbubble/TeePublic Expanded to multiple niches.",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 2,
+    "execution_steps": [
+      "Research: ['Niche quotes', 'Pet portraits', 'Hobby designs']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated",
+      "Test 3 niches simultaneously"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {},
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-09 10:08:18",
+    "last_executed": "",
+    "mutations": 1,
+    "generation": 1
+  },
+  "strat_6a9b7f12": {
+    "id": "strat_6a9b7f12",
+    "name": "AI Prompt Library (variant)",
+    "category": "service",
+    "description": "Curate and sell GPT prompts on Gumroad/Lemonsqueezy",
+    "initial_capital": 0,
+    "expected_roi": 90.59723644366224,
+    "risk_level": 1,
+    "execution_steps": [
+      "Research: ['Marketing prompts', 'Code review prompts', 'Writing prompts']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {},
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-09 10:08:18",
+    "last_executed": "",
+    "mutations": 1,
+    "generation": 1
+  },
+  "strat_034fbcdf": {
+    "id": "strat_034fbcdf",
+    "name": "API Wrapper Service (B2B)",
+    "category": "saas",
+    "description": "Wrap free API with value-add (caching, formatting, analytics), charge subscription (B2C only)",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 3,
+    "execution_steps": [
+      "Research: ['Twitter API wrapper', 'LinkedIn scraper API', 'Crypto price API']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {},
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-09 10:08:18",
+    "last_executed": "",
+    "mutations": 1,
+    "generation": 1
+  },
+  "strat_d38f01be": {
+    "id": "strat_d38f01be",
+    "name": "Micro-Productivity SaaS (expanded)",
+    "category": "saas",
+    "description": "Build tiny tool solving specific problem (markdown editor, snippet manager) Expanded to multiple niches.",
+    "initial_capital": 0,
+    "expected_roi": 100,
+    "risk_level": 4,
+    "execution_steps": [
+      "Research: ['JSON formatter', 'Regex tester', 'Color picker']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated",
+      "Test 3 niches simultaneously"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {},
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-09 10:08:18",
+    "last_executed": "",
+    "mutations": 1,
+    "generation": 1
+  }
+}

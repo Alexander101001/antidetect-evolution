@@ -1,0 +1,56 @@
+{
+  "started_at": "2026-08-09T06:18:09.852729",
+  "total": 5,
+  "successful": [],
+  "failed": [
+    {
+      "platform": "GitHub Codespaces",
+      "reason": "needs_manual_completion",
+      "oauth_available": [
+        "github"
+      ]
+    },
+    {
+      "platform": "Hugging Face",
+      "reason": "needs_manual_completion",
+      "oauth_available": [
+        "github",
+        "google"
+      ]
+    },
+    {
+      "platform": "Vercel",
+      "reason": "needs_manual_completion",
+      "oauth_available": [
+        "github",
+        "gitlab",
+        "bitbucket",
+        "google"
+      ]
+    },
+    {
+      "platform": "Render",
+      "reason": "needs_manual_completion",
+      "oauth_available": [
+        "github",
+        "gitlab",
+        "google"
+      ]
+    },
+    {
+      "platform": "Netlify",
+      "reason": "needs_manual_completion",
+      "oauth_available": [
+        "github",
+        "gitlab",
+        "bitbucket",
+        "google",
+        "email"
+      ]
+    }
+  ],
+  "details": [],
+  "finished_at": "2026-08-09T06:18:14.854998",
+  "successful_count": 0,
+  "failed_count": 5
+}

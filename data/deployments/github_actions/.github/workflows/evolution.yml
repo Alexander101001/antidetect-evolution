@@ -1,0 +1,25 @@
+
+name: Evolution Worker
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # Every 30 minutes
+  workflow_dispatch:
+
+jobs:
+  evolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: python evolution_engine.py --mode=cycle
+      - run: |
+          echo "$REPORT" >> $GITHUB_STEP_SUMMARY
+      - name: Notify
+        if: always()
+        run: |
+          curl -X POST "https://api.telegram.org/bot${{ secrets.TG_BOT }}/sendMessage" \
+            -d "chat_id=${{ secrets.TG_CHAT }}" \
+            -d "text=Evolution cycle complete: ${{ steps.evolve.outputs.revenue }}"

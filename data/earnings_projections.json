@@ -1,0 +1,211 @@
+{
+  "today": "Sunday",
+  "days_until_friday": 5,
+  "freelance": {
+    "total_weekly": 492.86,
+    "platforms": [
+      {
+        "platform": "Upwork",
+        "hourly_avg": 30,
+        "estimated_weekly": 0,
+        "approval_days": 14,
+        "ready_by_friday": false
+      },
+      {
+        "platform": "Fiverr",
+        "hourly_avg": "N/A",
+        "estimated_weekly": 0,
+        "approval_days": 7,
+        "ready_by_friday": false
+      },
+      {
+        "platform": "Freelancer",
+        "hourly_avg": 25,
+        "estimated_weekly": 42.86,
+        "approval_days": 3,
+        "ready_by_friday": true
+      },
+      {
+        "platform": "Toptal",
+        "hourly_avg": 120,
+        "estimated_weekly": 0,
+        "approval_days": 30,
+        "ready_by_friday": false
+      },
+      {
+        "platform": "Contra",
+        "hourly_avg": 80,
+        "estimated_weekly": 228.57,
+        "approval_days": 1,
+        "ready_by_friday": true
+      },
+      {
+        "platform": "Guru",
+        "hourly_avg": 25,
+        "estimated_weekly": 50.0,
+        "approval_days": 3,
+        "ready_by_friday": true
+      },
+      {
+        "platform": "PeoplePerHour",
+        "hourly_avg": 40,
+        "estimated_weekly": 0,
+        "approval_days": 5,
+        "ready_by_friday": false
+      },
+      {
+        "platform": "99Designs",
+        "hourly_avg": "N/A",
+        "estimated_weekly": 0,
+        "approval_days": 7,
+        "ready_by_friday": false
+      },
+      {
+        "platform": "Hireable",
+        "hourly_avg": 50,
+        "estimated_weekly": 171.43,
+        "approval_days": 1,
+        "ready_by_friday": true
+      },
+      {
+        "platform": "AngelList_Wellfound",
+        "hourly_avg": 100,
+        "estimated_weekly": 0,
+        "approval_days": 7,
+        "ready_by_friday": false
+      }
+    ]
+  },
+  "affiliate": {
+    "total_weekly": 114.86,
+    "platforms": [
+      {
+        "platform": "Amazon Associates",
+        "commission": "1-10%",
+        "estimated_weekly": 5.71,
+        "approval_days": 1,
+        "ready_by_friday": true
+      },
+      {
+        "platform": "ClickBank",
+        "commission": "30-75%",
+        "estimated_weekly": 57.14,
+        "approval_days": 1,
+        "ready_by_friday": true
+      },
+      {
+        "platform": "ShareASale",
+        "commission": "5-50%",
+        "estimated_weekly": 0,
+        "approval_days": 7,
+        "ready_by_friday": false
+      },
+      {
+        "platform": "CJ Affiliate",
+        "commission": "5-30%",
+        "estimated_weekly": 0,
+        "approval_days": 7,
+        "ready_by_friday": false
+      },
+      {
+        "platform": "Rakuten",
+        "commission": "2-10%",
+        "estimated_weekly": 1.14,
+        "approval_days": 3,
+        "ready_by_friday": true
+      },
+      {
+        "platform": "eBay Partner",
+        "commission": "1-6%",
+        "estimated_weekly": 1.14,
+        "approval_days": 1,
+        "ready_by_friday": true
+      },
+      {
+        "platform": "WP Engine",
+        "commission": "$200+",
+        "estimated_weekly": 0,
+        "approval_days": 7,
+        "ready_by_friday": false
+      },
+      {
+        "platform": "Bluehost",
+        "commission": "$65+",
+        "estimated_weekly": 18.29,
+        "approval_days": 1,
+        "ready_by_friday": true
+      },
+      {
+        "platform": "Hostinger",
+        "commission": "$50+",
+        "estimated_weekly": 14.29,
+        "approval_days": 1,
+        "ready_by_friday": true
+      },
+      {
+        "platform": "Shopify",
+        "commission": "$150+",
+        "estimated_weekly": 0,
+        "approval_days": 7,
+        "ready_by_friday": false
+      },
+      {
+        "platform": "Semrush",
+        "commission": "$200+",
+        "estimated_weekly": 0,
+        "approval_days": 7,
+        "ready_by_friday": false
+      },
+      {
+        "platform": "ConvertKit",
+        "commission": "30% recurring",
+        "estimated_weekly": 17.14,
+        "approval_days": 1,
+        "ready_by_friday": true
+      }
+    ]
+  },
+  "cloud": {
+    "total_savings_weekly": 55,
+    "platforms": [
+      {
+        "platform": "Hugging Face",
+        "savings_per_week": 12
+      },
+      {
+        "platform": "Vercel",
+        "savings_per_week": 5
+      },
+      {
+        "platform": "Render",
+        "savings_per_week": 6
+      },
+      {
+        "platform": "Railway",
+        "savings_per_week": 5
+      },
+      {
+        "platform": "Netlify",
+        "savings_per_week": 5
+      },
+      {
+        "platform": "Replit",
+        "savings_per_week": 5
+      },
+      {
+        "platform": "Cloudflare Pages",
+        "savings_per_week": 6
+      },
+      {
+        "platform": "GitLab",
+        "savings_per_week": 6
+      },
+      {
+        "platform": "Koyeb",
+        "savings_per_week": 5
+      }
+    ]
+  },
+  "total_potential": 662.71,
+  "note": "Realistic estimates assume: 2-3 hours/day active work, agent can submit proposals 24/7"
+}

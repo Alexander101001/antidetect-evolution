@@ -1,0 +1,333 @@
+{
+  "free_pro_services": {
+    "captcha_solvers": {
+      "note": "Most real captcha solvers cost money. Free options are limited.",
+      "free_options": [
+        {
+          "name": "Tesseract OCR",
+          "type": "self_hosted",
+          "cost": "free",
+          "best_for": "simple image text CAPTCHAs",
+          "install": "pkg install tesseract",
+          "python_lib": "pytesseract",
+          "accuracy": "low (~30-50% on distorted CAPTCHAs)"
+        },
+        {
+          "name": "Open source ML models",
+          "type": "github_repo",
+          "examples": [
+            "https://github.com/pythonlessons/mltu - TensorFlow captcha OCR",
+            "https://github.com/ecthros/uncaptcha - defeats audio reCAPTCHA"
+          ],
+          "best_for": "specific captcha types after training"
+        },
+        {
+          "name": "Audio reCAPTCHA defeat",
+          "type": "research_technique",
+          "method": "reCAPTCHA has audio version — download, send to speech-to-text API (free tier Google Speech, Whisper)",
+          "best_for": "reCAPTCHA v2 only",
+          "note": "Google killed this attack in 2024 but some variants still work"
+        }
+      ],
+      "free_tier_paid_services": [
+        {
+          "name": "2captcha",
+          "free_tier": "$3 free credit on signup (enough for ~1 captcha)",
+          "url": "https://2captcha.com"
+        },
+        {
+          "name": "capsolver",
+          "free_tier": "$1 free trial",
+          "url": "https://capsolver.com"
+        },
+        {
+          "name": "anti-captcha",
+          "free_tier": "$1 free trial",
+          "url": "https://anti-captcha.com"
+        }
+      ],
+      "conclusion": "For 100% free captcha solving: train Tesseract on the specific captcha type you face, or use audio reCAPTCHA + free speech-to-text"
+    },
+
+    "temp_email_apis": {
+      "best_picks": [
+        {
+          "name": "GuerrillaMail",
+          "url": "https://www.guerrillamail.com",
+          "api": "https://api.guerrillamail.com/ajax.php",
+          "cost": "free",
+          "lifetime": "60 minutes per address",
+          "registration": "none",
+          "status": "✅ working in our skill"
+        },
+        {
+          "name": "OpenInbox.io",
+          "url": "https://openinbox.io/temp-email-api",
+          "api": "REST API with auth key",
+          "cost": "free tier available",
+          "lifetime": "configurable",
+          "best_for": "developer/CI/CD testing"
+        },
+        {
+          "name": "MailSlurp",
+          "url": "https://www.mailslurp.com",
+          "api": "REST API",
+          "cost": "free tier (limited inboxes)",
+          "best_for": "testing email flows"
+        },
+        {
+          "name": "Mail.tm",
+          "url": "https://docs.mail.tm",
+          "api": "REST API",
+          "cost": "free",
+          "lifetime": "persistent",
+          "best_for": "longer-lived inboxes"
+        },
+        {
+          "name": "discard.email",
+          "url": "https://discard.email",
+          "api": "some endpoints",
+          "cost": "free",
+          "lifetime": "configurable"
+        }
+      ],
+      "html_only_inboxes": {
+        "note": "These have no API — would need to scrape HTML (harder)",
+        "list": ["temp-mail.org", "10minutemail.com", "yopmail.com", "mailinator.com"]
+      }
+    },
+
+    "sms_services": {
+      "best_picks": [
+        {
+          "name": "receive-smss.com",
+          "url": "https://receive-smss.com",
+          "cost": "free",
+          "registration": "none",
+          "type": "public inbox (anyone can see)"
+        },
+        {
+          "name": "receivesms.co",
+          "url": "https://receivesms.co",
+          "cost": "free",
+          "registration": "none"
+        },
+        {
+          "name": "quackr.io",
+          "url": "https://quackr.io",
+          "cost": "free tier + paid",
+          "registration": "none"
+        },
+        {
+          "name": "smscodeonline.com",
+          "url": "https://smscodeonline.com",
+          "cost": "free"
+        },
+        {
+          "name": "anonymsms.com",
+          "url": "https://anonymsms.com",
+          "cost": "free"
+        },
+        {
+          "name": "receive-sms-free.cc",
+          "url": "https://receive-sms-free.cc",
+          "cost": "free"
+        },
+        {
+          "name": "hs3x.com",
+          "url": "https://hs3x.com",
+          "cost": "free"
+        },
+        {
+          "name": "smsreceivefree.com",
+          "url": "https://smsreceivefree.com",
+          "cost": "free"
+        },
+        {
+          "name": "freephonenum.com",
+          "url": "https://freephonenum.com",
+          "cost": "free",
+          "country": "USA"
+        },
+        {
+          "name": "sms-online.co",
+          "url": "https://sms-online.co",
+          "cost": "free"
+        }
+      ],
+      "limitations": {
+        "public": "Anyone can see SMS — bad for security-critical accounts",
+        "no_api": "Most have no API — must scrape HTML",
+        "blacklisted": "Many platforms blacklist these numbers",
+        "solution": "For accounts that block free SMS: use paid 5sim.net (~$0.10/number)"
+      }
+    },
+
+    "free_proxies": {
+      "sources": [
+        {
+          "name": "ProxyScrape",
+          "url": "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http&timeout=5000",
+          "type": "free list",
+          "reliability": "low-medium"
+        },
+        {
+          "name": "TheSpeedX PROXY-List",
+          "url": "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
+          "type": "github",
+          "reliability": "medium"
+        },
+        {
+          "name": "ShiftyTR Proxy-List",
+          "url": "https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt",
+          "type": "github",
+          "reliability": "medium"
+        },
+        {
+          "name": "free-proxy-list (proxifly)",
+          "url": "https://github.com/proxifly/free-proxy-list",
+          "type": "github",
+          "reliability": "high (continuously updated)"
+        }
+      ],
+      "premium_affordable": [
+        {
+          "name": "Webshare",
+          "free_tier": "10 proxies free forever",
+          "url": "https://webshare.io",
+          "cost": "free for low volume"
+        }
+      ],
+      "note": "Free proxies are SLOW and UNRELIABLE. For production, get cheap datacenter proxies (~$1/month)"
+    },
+
+    "browser_engines": {
+      "note": "Termux can't run real browsers. Workarounds:",
+      "options": [
+        {
+          "name": "Jina Reader API",
+          "url": "https://r.jina.ai",
+          "cost": "free (with rate limits)",
+          "best_for": "rendering JS-heavy pages",
+          "status": "✅ already integrated"
+        },
+        {
+          "name": "Firecrawl browser mode",
+          "url": "https://firecrawl.dev",
+          "cost": "free tier (500 credits)",
+          "best_for": "JS rendering + screenshots",
+          "status": "✅ already integrated"
+        },
+        {
+          "name": "Google cache",
+          "url": "https://webcache.googleusercontent.com/search?q=cache:URL",
+          "cost": "free",
+          "best_for": "bypassing some anti-bot"
+        },
+        {
+          "name": "Archive.org Wayback Machine",
+          "url": "https://web.archive.org",
+          "cost": "free",
+          "best_for": "cached versions of pages"
+        }
+      ]
+    },
+
+    "ocr_and_image": {
+      "tools": [
+        {
+          "name": "Tesseract OCR",
+          "install": "pkg install tesseract",
+          "python_lib": "pytesseract",
+          "cost": "free",
+          "best_for": "extracting text from images, simple captchas"
+        },
+        {
+          "name": "EasyOCR",
+          "install": "pip install easyocr",
+          "cost": "free",
+          "best_for": "more accurate than Tesseract, GPU-optional"
+        }
+      ]
+    },
+
+    "speech_to_text": {
+      "free_tiers": [
+        {
+          "name": "Whisper (open source)",
+          "install": "pip install openai-whisper",
+          "cost": "free (runs locally)",
+          "best_for": "audio reCAPTCHA defeat"
+        },
+        {
+          "name": "Google Cloud Speech",
+          "free_tier": "60 min/month free",
+          "best_for": "online STT"
+        }
+      ]
+    },
+
+    "anti_detect_browsers": {
+      "note": "These can't run on Termux but are useful info",
+      "options": [
+        "GoLogin (anti-detect browser, ~$24/mo)",
+        "Multilogin (~$99/mo)",
+        "AdsPower (free tier available)",
+        "Browserless.io (cloud browser, free tier)"
+      ]
+    },
+
+    "search_engines_with_apis": {
+      "free_options": [
+        {
+          "name": "DuckDuckGo HTML",
+          "url": "https://html.duckduckgo.com/html/?q=",
+          "cost": "free, no API key",
+          "limits": "rate limited, can block"
+        },
+        {
+          "name": "SearXNG (self-hosted meta-search)",
+          "url": "https://searx.be",
+          "cost": "free public instances",
+          "best_for": "Google results without Google API"
+        },
+        {
+          "name": "Brave Search API",
+          "free_tier": "2000 queries/month",
+          "url": "https://brave.com/search/api/"
+        },
+        {
+          "name": "Exa (used by agent-reach)",
+          "free_tier": "1000 queries/month",
+          "note": "Already in agent-reach skill"
+        }
+      ]
+    },
+
+    "summary": {
+      "fully_free_working": [
+        "GuerrillaMail (temp email) ✅",
+        "Jina Reader (JS rendering) ✅",
+        "Firecrawl (scraping) ✅",
+        "Google cache + Wayback (bypass) ✅",
+        "10 public SMS services ✅",
+        "Free proxy lists ✅",
+        "Whisper (audio captcha) ✅",
+        "Tesseract (image captcha, low accuracy) ✅"
+      ],
+      "free_tier_only": [
+        "Firecrawl (500 free credits/month)",
+        "Webshare proxies (10 free)",
+        "capsolver ($1 free trial)",
+        "OpenInbox.io temp email",
+        "Brave Search API (2000/month)"
+      ],
+      "needs_payment": [
+        "Reliable captcha solving (2captcha, $3/1000)",
+        "Reliable SMS (5sim, $0.10/number)",
+        "Residential proxies ($5+/GB)",
+        "Anti-detect browsers ($24+/mo)"
+      ]
+    }
+  }
+}

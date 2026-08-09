@@ -1,0 +1,239 @@
+{
+  "verification_resources": {
+    "sms": {
+      "description": "Free public phone numbers to receive SMS verification codes",
+      "warning": "These numbers are PUBLIC — anyone can see the SMS. Never use for important accounts. Only for testing/non-critical signups.",
+      "sites": [
+        {
+          "name": "receive-smss.com",
+          "url": "https://receive-smss.com",
+          "countries": "USA, UK, Canada, Germany, France, India, Brazil",
+          "type": "public_inbox",
+          "no_registration": true,
+          "best_for": "one-time verification codes"
+        },
+        {
+          "name": "receivesms.co",
+          "url": "https://receivesms.co",
+          "countries": "USA, UK, EU, Asia",
+          "type": "public_inbox",
+          "no_registration": true,
+          "best_for": "multiple US/UK numbers"
+        },
+        {
+          "name": "quackr.io",
+          "url": "https://quackr.io",
+          "countries": "30+ countries",
+          "type": "temporary_disposable",
+          "no_registration": true,
+          "best_for": "privacy-focused temporary numbers"
+        },
+        {
+          "name": "smscodeonline.com",
+          "url": "https://smscodeonline.com",
+          "countries": "USA, UK, Canada",
+          "type": "public_inbox",
+          "no_registration": true,
+          "best_for": "US numbers, fast refresh"
+        },
+        {
+          "name": "anonymsms.com",
+          "url": "https://anonymsms.com",
+          "countries": "USA, UK, Germany",
+          "type": "public_inbox",
+          "no_registration": true,
+          "best_for": "European numbers"
+        },
+        {
+          "name": "receive-sms-free.cc",
+          "url": "https://receive-sms-free.cc",
+          "countries": "USA, UK, Canada, France",
+          "type": "public_inbox",
+          "no_registration": true,
+          "best_for": "Canada/France numbers"
+        },
+        {
+          "name": "hs3x.com",
+          "url": "https://hs3x.com",
+          "countries": "USA, UK, EU",
+          "type": "public_inbox",
+          "no_registration": true,
+          "best_for": "multiple country options"
+        },
+        {
+          "name": "smsreceivefree.com",
+          "url": "https://smsreceivefree.com",
+          "countries": "USA, UK, Canada",
+          "type": "public_inbox",
+          "no_registration": true,
+          "best_for": "clean UI, fast"
+        },
+        {
+          "name": "freephonenum.com",
+          "url": "https://freephonenum.com",
+          "countries": "USA only",
+          "type": "public_inbox",
+          "no_registration": true,
+          "best_for": "US-only testing"
+        },
+        {
+          "name": "sms-online.co",
+          "url": "https://sms-online.co",
+          "countries": "USA, UK, EU, Asia",
+          "type": "public_inbox",
+          "no_registration": true,
+          "best_for": "global coverage"
+        }
+      ]
+    },
+    "email": {
+      "description": "Free disposable/temporary email services for verification",
+      "warning": "These inboxes are PUBLIC or short-lived. Only for non-critical signups.",
+      "sites": [
+        {
+          "name": "temp-mail.org",
+          "url": "https://temp-mail.org",
+          "duration": "until browser closes / 10 min",
+          "custom_domain": false,
+          "best_for": "fast disposable emails"
+        },
+        {
+          "name": "guerrillamail.com",
+          "url": "https://www.guerrillamail.com",
+          "duration": "60 minutes",
+          "custom_domain": true,
+          "best_for": "extended inbox, custom domains"
+        },
+        {
+          "name": "10minutemail.com",
+          "url": "https://10minutemail.com",
+          "duration": "10 minutes (extendable)",
+          "custom_domain": false,
+          "best_for": "quick one-off verification"
+        },
+        {
+          "name": "mailinator.com",
+          "url": "https://www.mailinator.com",
+          "duration": "public, persistent",
+          "custom_domain": true,
+          "best_for": "public test emails"
+        },
+        {
+          "name": "yopmail.com",
+          "url": "https://yopmail.com",
+          "duration": "8 days",
+          "custom_domain": true,
+          "best_for": "longer-lived disposable inbox"
+        },
+        {
+          "name": "discard.email",
+          "url": "https://discard.email",
+          "duration": "configurable",
+          "custom_domain": true,
+          "best_for": "custom expiration time"
+        },
+        {
+          "name": "tempail.com",
+          "url": "https://tempail.com",
+          "duration": "until tab closes",
+          "custom_domain": false,
+          "best_for": "no-signup fast emails"
+        },
+        {
+          "name": "emailondeck.com",
+          "url": "https://www.emailondeck.com",
+          "duration": "until used",
+          "custom_domain": false,
+          "best_for": "random address generation"
+        },
+        {
+          "name": "mohmal.com",
+          "url": "https://mohmal.com",
+          "duration": "45 minutes",
+          "custom_domain": false,
+          "best_for": "Arabic-friendly, instant"
+        },
+        {
+          "name": "getnada.com",
+          "url": "https://getnada.com",
+          "duration": "persistent",
+          "custom_domain": true,
+          "best_for": "multiple inboxes, custom domains"
+        }
+      ]
+    },
+    "credit_card": {
+      "description": "Test/fake credit card generators (for development/testing ONLY)",
+      "warning": "These generate Luhn-valid card numbers for testing. They will NOT work for real purchases. Never use for fraud.",
+      "type": "test_card_generators",
+      "sites": [
+        {
+          "name": "stripe test cards",
+          "url": "https://docs.stripe.com/testing",
+          "type": "official_test_cards",
+          "best_for": "Stripe checkout testing"
+        },
+        {
+          "name": "paypal sandbox",
+          "url": "https://developer.paypal.com/tools/sandbox/",
+          "type": "sandbox_environment",
+          "best_for": "PayPal integration testing"
+        },
+        {
+          "name": "braintree sandbox",
+          "url": "https://developer.paypal.com/braintree",
+          "type": "sandbox_environment",
+          "best_for": "Braintree/PayPal testing"
+        },
+        {
+          "name": "Adyen test cards",
+          "url": "https://docs.adyen.com/development-resources/test-cards",
+          "type": "official_test_cards",
+          "best_for": "Adyen integration"
+        },
+        {
+          "name": "2Checkout sandbox",
+          "url": "https://www.2checkout.com/sandbox",
+          "type": "sandbox_environment",
+          "best_for": "2Checkout integration"
+        },
+        {
+          "name": "authorize.net sandbox",
+          "url": "https://developer.authorize.net/hello_world/testing/",
+          "type": "sandbox_environment",
+          "best_for": "Authorize.Net testing"
+        },
+        {
+          "name": "Braintree test card numbers",
+          "url": "https://developer.paypal.com/braintree/docs/guides/credit-cards/testing-go-live/node",
+          "type": "official_test_cards",
+          "best_for": "specific test scenarios"
+        },
+        {
+          "name": "Square sandbox",
+          "url": "https://developer.squareup.com/docs/devtools/sandbox",
+          "type": "sandbox_environment",
+          "best_for": "Square POS testing"
+        },
+        {
+          "name": "Checkout.com sandbox",
+          "url": "https://www.checkout.com/docs/sandbox",
+          "type": "sandbox_environment",
+          "best_for": "Checkout.com integration"
+        },
+        {
+          "name": "Razorpay test mode",
+          "url": "https://razorpay.com/docs/payments/payment-gateway/test-mode/",
+          "type": "sandbox_environment",
+          "best_for": "Razorpay (India) testing"
+        }
+      ]
+    }
+  },
+  "usage_notes": {
+    "sms": "Visit the URL, pick a number, use it on the target site, then refresh the SMS inbox page to see the verification code.",
+    "email": "Copy the temporary email, paste it on signup form, refresh the temp email page to see verification email.",
+    "credit_card": "These are TEST cards provided by payment processors for development. They work in test/sandbox mode only.",
+    "legal": "Public SMS/email inboxes are intended for testing. Using them for fraud or to evade bans is illegal."
+  }
+}

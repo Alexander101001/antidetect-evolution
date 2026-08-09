@@ -1,0 +1,71 @@
+{
+  "oracle.com": {
+    "score": 40,
+    "factors": {
+      "antibot_f5": 15,
+      "antibot_akamai": 20,
+      "js_heavy": 5
+    },
+    "timestamp": 1786242425.1858566
+  },
+  "signup.cloud.oracle.com": {
+    "score": 0,
+    "factors": {},
+    "timestamp": 1786242490.499572
+  },
+  "huggingface.co": {
+    "score": 5,
+    "factors": {
+      "js_heavy": 5
+    },
+    "timestamp": 1786245299.4147713
+  },
+  "vercel.com": {
+    "score": 35,
+    "factors": {
+      "antibot_f5": 15,
+      "js_heavy": 20
+    },
+    "timestamp": 1786245747.4608252
+  },
+  "render.com": {
+    "score": 0,
+    "factors": {},
+    "timestamp": 1786245752.4322796
+  },
+  "railway.app": {
+    "score": 5,
+    "factors": {
+      "js_heavy": 5
+    },
+    "timestamp": 1786245756.4105923
+  },
+  "fly.io": {
+    "score": 15,
+    "factors": {
+      "antibot_f5": 15,
+      "likely_2fa": 10,
+      "email_only_bonus": -10
+    },
+    "timestamp": 1786245760.8457687
+  },
+  "app.netlify.com": {
+    "score": 30,
+    "factors": {
+      "antibot_f5": 15,
+      "captcha_recaptcha": 10,
+      "js_heavy": 5
+    },
+    "timestamp": 1786245765.1310654
+  },
+  "pages.cloudflare.com": {
+    "score": 0,
+    "factors": {},
+    "timestamp": 1786245774.2008853
+  },
+  "web.deta.space": {
+    "score": 0,
+    "factors": {},
+    "timestamp": 1786245782.5774267
+  }
+}
