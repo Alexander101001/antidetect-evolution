@@ -1,0 +1,43 @@
+{
+  "applications": [
+    {
+      "date": "2026-08-09",
+      "timestamp": 1786306956.6223516,
+      "thing": "Use chain-of-thought: think step by step before acting",
+      "applied_to": "General system",
+      "improvement_score": 1.6214578035714546
+    },
+    {
+      "date": "2026-08-09",
+      "timestamp": 1786306956.62237,
+      "thing": "Read past mistakes and learn from them",
+      "applied_to": "General system",
+      "improvement_score": 1.296092582234963
+    },
+    {
+      "date": "2026-08-09",
+      "timestamp": 1786306956.6223805,
+      "thing": "Use examples to illustrate",
+      "applied_to": "General system",
+      "improvement_score": 1.8621983904940849
+    },
+    {
+      "date": "2026-08-09",
+      "timestamp": 1786306956.6223862,
+      "thing": "Use active learning: ask when uncertain",
+      "applied_to": "Master orchestrator",
+      "improvement_score": 1.4288238640174113
+    },
+    {
+      "date": "2026-08-09",
+      "timestamp": 1786306956.6223938,
+      "thing": "Approximate when exact not needed",
+      "applied_to": "General system",
+      "improvement_score": 1.691392744618894
+    }
+  ],
+  "improvements": [],
+  "current_iq": 50.78999653849368,
+  "target_iq": 100,
+  "days_running": 1
+}

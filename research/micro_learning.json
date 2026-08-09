@@ -2,9 +2,12 @@
   "learned_things": [
     "Use transfer learning: apply across domains",
     "Use curriculum learning: easy to hard progression",
-    "Use tree-of-thought: explore multiple paths before choosing"
+    "Use tree-of-thought: explore multiple paths before choosing",
+    "Use examples to illustrate",
+    "Use constraints to force creativity",
+    "Use visual when possible"
   ],
-  "total_cycles": 3,
-  "creativity_score": 6,
+  "total_cycles": 6,
+  "creativity_score": 12,
   "started_at": 1786306435.9755049
 }

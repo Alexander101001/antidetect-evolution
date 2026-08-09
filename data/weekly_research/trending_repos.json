@@ -1,0 +1,307 @@
+{
+  "date": "2026-08-09T23:20:15.081917",
+  "total_found": 40,
+  "top_20": [
+    {
+      "name": "infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "stars": 87120,
+      "language": "Go",
+      "url": "https://github.com/infiniflow/ragflow",
+      "topics": [
+        "agent-harness",
+        "agentic-ai",
+        "agentic-retrieval",
+        "agentic-search",
+        "ai"
+      ],
+      "updated": "2026-08-09T19:36:00Z",
+      "query": "rag+retrieval+augmented"
+    },
+    {
+      "name": "fighting41love/funNLP",
+      "description": "\u4e2d\u82f1\u6587\u654f\u611f\u8bcd\u3001\u8bed\u8a00\u68c0\u6d4b\u3001\u4e2d\u5916\u624b\u673a/\u7535\u8bdd\u5f52\u5c5e\u5730/\u8fd0\u8425\u5546\u67e5\u8be2\u3001\u540d\u5b57\u63a8\u65ad\u6027\u522b\u3001\u624b\u673a\u53f7\u62bd\u53d6\u3001\u8eab\u4efd\u8bc1\u62bd\u53d6\u3001\u90ae\u7bb1\u62bd\u53d6\u3001\u4e2d\u65e5\u6587\u4eba\u540d\u5e93\u3001\u4e2d\u6587\u7f29\u5199\u5e93\u3001\u62c6\u5b57\u8bcd\u5178\u3001\u8bcd\u6c47\u60c5\u611f\u503c\u3001\u505c\u7528\u8bcd\u3001\u53cd\u52a8\u8bcd\u8868\u3001\u66b4\u6050\u8bcd\u8868\u3001\u7e41\u7b80\u4f53\u8f6c\u6362\u3001\u82f1\u6587\u6a21\u62df\u4e2d\u6587\u53d1\u97f3\u3001\u6c6a\u5cf0\u6b4c\u8bcd\u751f\u6210\u5668\u3001\u804c\u4e1a\u540d\u79f0\u8bcd\u5e93\u3001\u540c\u4e49\u8bcd\u5e93\u3001\u53cd\u4e49\u8bcd\u5e93\u3001\u5426\u5b9a\u8bcd\u5e93\u3001\u6c7d\u8f66\u54c1\u724c\u8bcd\u5e93\u3001\u6c7d\u8f66\u96f6\u4ef6\u8bcd\u5e93\u3001\u8fde\u7eed\u82f1\u6587\u5207\u5272\u3001\u5404\u79cd\u4e2d\u6587\u8bcd\u5411\u91cf\u3001\u516c\u53f8\u540d\u5b57\u5927\u5168\u3001\u53e4\u8bd7\u8bcd\u5e93\u3001IT\u8bcd\u5e93\u3001\u8d22\u7ecf\u8bcd\u5e93\u3001\u6210\u8bed\u8bcd\u5e93\u3001\u5730\u540d\u8bcd\u5e93\u3001\u5386\u53f2\u540d",
+      "stars": 82364,
+      "language": "Python",
+      "url": "https://github.com/fighting41love/funNLP",
+      "topics": [],
+      "updated": "2026-08-09T15:42:38Z",
+      "query": "transformer+attention"
+    },
+    {
+      "name": "dair-ai/Prompt-Engineering-Guide",
+      "description": "\ud83d\udc19 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
+      "stars": 77371,
+      "language": "MDX",
+      "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+      "topics": [
+        "agent",
+        "agents",
+        "ai-agents",
+        "chatgpt",
+        "deep-learning"
+      ],
+      "updated": "2026-08-09T17:40:11Z",
+      "query": "prompt+engineering"
+    },
+    {
+      "name": "hiyouga/LlamaFactory",
+      "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+      "stars": 73939,
+      "language": "Python",
+      "url": "https://github.com/hiyouga/LlamaFactory",
+      "topics": [
+        "agent",
+        "ai",
+        "deepseek",
+        "fine-tuning",
+        "gemma"
+      ],
+      "updated": "2026-08-09T16:45:14Z",
+      "query": "fine-tuning+llm"
+    },
+    {
+      "name": "CompVis/stable-diffusion",
+      "description": "A latent text-to-image diffusion model",
+      "stars": 73301,
+      "language": "Jupyter Notebook",
+      "url": "https://github.com/CompVis/stable-diffusion",
+      "topics": [],
+      "updated": "2026-08-09T18:55:28Z",
+      "query": "diffusion+model+stable"
+    },
+    {
+      "name": "unslothai/unsloth",
+      "description": "The local UI to run and train text and diffusion models, including Kimi K3, Gemma 4, Qwen3.6, DeepSeek-V4, FLUX and more.",
+      "stars": 69764,
+      "language": "Python",
+      "url": "https://github.com/unslothai/unsloth",
+      "topics": [
+        "agent",
+        "chatgpt",
+        "deepseek",
+        "fine-tuning",
+        "gemma"
+      ],
+      "updated": "2026-08-09T19:12:45Z",
+      "query": "fine-tuning+llm"
+    },
+    {
+      "name": "ruvnet/ruflo",
+      "description": "\ud83c\udf0a The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, R",
+      "stars": 67490,
+      "language": "TypeScript",
+      "url": "https://github.com/ruvnet/ruflo",
+      "topics": [
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "agents",
+        "ai-agents"
+      ],
+      "updated": "2026-08-09T20:15:41Z",
+      "query": "ai+agent+autonomous"
+    },
+    {
+      "name": "labmlai/annotated_deep_learning_paper_implementations",
+      "description": "\ud83e\uddd1\u200d\ud83c\udfeb 60+ Implementations/tutorials of deep learning papers with side-by-side notes \ud83d\udcdd; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(",
+      "stars": 67301,
+      "language": "Python",
+      "url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations",
+      "topics": [
+        "attention",
+        "deep-learning",
+        "deep-learning-tutorial",
+        "gan",
+        "literate-programming"
+      ],
+      "updated": "2026-08-09T15:40:00Z",
+      "query": "transformer+attention"
+    },
+    {
+      "name": "gsd-build/get-shit-done",
+      "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by T\u00c2CHES.",
+      "stars": 64729,
+      "language": "JavaScript",
+      "url": "https://github.com/gsd-build/get-shit-done",
+      "topics": [
+        "claude-code",
+        "context-engineering",
+        "meta-prompting",
+        "spec-driven-development"
+      ],
+      "updated": "2026-08-09T19:17:29Z",
+      "query": "prompt+engineering"
+    },
+    {
+      "name": "crewAIInc/crewAI",
+      "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+      "stars": 56861,
+      "language": "Python",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "aiagentframework",
+        "llms"
+      ],
+      "updated": "2026-08-09T19:39:48Z",
+      "query": "ai+agent+autonomous"
+    },
+    {
+      "name": "run-llama/llama_index",
+      "description": "LlamaIndex is the leading document agent and OCR platform",
+      "stars": 51504,
+      "language": "Python",
+      "url": "https://github.com/run-llama/llama_index",
+      "topics": [
+        "agents",
+        "application",
+        "data",
+        "fine-tuning",
+        "framework"
+      ],
+      "updated": "2026-08-09T19:21:24Z",
+      "query": "fine-tuning+llm"
+    },
+    {
+      "name": "CherryHQ/cherry-studio",
+      "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+      "stars": 50181,
+      "language": "TypeScript",
+      "url": "https://github.com/CherryHQ/cherry-studio",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "awesome-skills",
+        "claude-code",
+        "codex"
+      ],
+      "updated": "2026-08-09T20:11:42Z",
+      "query": "ai+agent+autonomous"
+    },
+    {
+      "name": "HKUDS/LightRAG",
+      "description": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\"",
+      "stars": 38685,
+      "language": "Python",
+      "url": "https://github.com/HKUDS/LightRAG",
+      "topics": [
+        "genai",
+        "gpt",
+        "gpt-4",
+        "graphrag",
+        "knowledge-graph"
+      ],
+      "updated": "2026-08-09T18:04:40Z",
+      "query": "rag+retrieval+augmented"
+    },
+    {
+      "name": "anthropics/prompt-eng-interactive-tutorial",
+      "description": "Anthropic's Interactive Prompt Engineering Tutorial",
+      "stars": 37594,
+      "language": "Jupyter Notebook",
+      "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+      "topics": [],
+      "updated": "2026-08-09T18:09:22Z",
+      "query": "prompt+engineering"
+    },
+    {
+      "name": "khoj-ai/khoj",
+      "description": "Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI ",
+      "stars": 36411,
+      "language": "Python",
+      "url": "https://github.com/khoj-ai/khoj",
+      "topics": [
+        "agent",
+        "ai",
+        "assistant",
+        "chat",
+        "chatgpt"
+      ],
+      "updated": "2026-08-09T19:40:26Z",
+      "query": "ai+agent+autonomous"
+    },
+    {
+      "name": "microsoft/graphrag",
+      "description": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
+      "stars": 35355,
+      "language": "Python",
+      "url": "https://github.com/microsoft/graphrag",
+      "topics": [
+        "gpt",
+        "gpt-4",
+        "gpt4",
+        "graphrag",
+        "llm"
+      ],
+      "updated": "2026-08-09T18:10:28Z",
+      "query": "rag+retrieval+augmented"
+    },
+    {
+      "name": "lutzroeder/netron",
+      "description": "Visualizer for neural network, deep learning and machine learning models",
+      "stars": 33327,
+      "language": "JavaScript",
+      "url": "https://github.com/lutzroeder/netron",
+      "topics": [
+        "ai",
+        "coreml",
+        "deep-learning",
+        "deeplearning",
+        "keras"
+      ],
+      "updated": "2026-08-09T18:53:27Z",
+      "query": "machine+learning+neural+network"
+    },
+    {
+      "name": "langfuse/langfuse",
+      "description": "\ud83e\udea2 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. \ud83c\udf4aYC W23 ",
+      "stars": 32779,
+      "language": "TypeScript",
+      "url": "https://github.com/langfuse/langfuse",
+      "topics": [
+        "analytics",
+        "autogen",
+        "evaluation",
+        "langchain",
+        "large-language-models"
+      ],
+      "updated": "2026-08-09T20:08:59Z",
+      "query": "prompt+engineering"
+    },
+    {
+      "name": "sgl-project/sglang",
+      "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+      "stars": 31583,
+      "language": "Python",
+      "url": "https://github.com/sgl-project/sglang",
+      "topics": [
+        "attention",
+        "blackwell",
+        "cuda",
+        "deepseek",
+        "diffusion"
+      ],
+      "updated": "2026-08-09T18:52:32Z",
+      "query": "transformer+attention"
+    },
+    {
+      "name": "NirDiamant/RAG_Techniques",
+      "description": "This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.",
+      "stars": 29000,
+      "language": "Jupyter Notebook",
+      "url": "https://github.com/NirDiamant/RAG_Techniques",
+      "topics": [
+        "agentic-rag",
+        "ai",
+        "embeddings",
+        "generative-ai",
+        "gpt"
+      ],
+      "updated": "2026-08-09T18:02:30Z",
+      "query": "rag+retrieval+augmented"
+    }
+  ]
+}
