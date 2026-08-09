@@ -1,59 +1,33 @@
-name: 🧠 Continuous Learning (24/7)
+name: 🧠 Continuous Learning
 
 on:
   schedule:
-    # Every 30 minutes
-    - cron: '*/30 * * * *'
+    # Every 2 hours (well within free tier)
+    - cron: '17 */2 * * *'  # At 00:17, 02:17, 04:17, etc
   workflow_dispatch:
 
 jobs:
   learn:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 15
     
     steps:
       - uses: actions/checkout@v4
-      
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - run: pip install requests
       
-      - name: Install deps
-        run: pip install requests
-      
-      - name: Micro Learn (every cycle)
+      - name: Micro Learn + Apply
         run: |
           cd research
           python3 micro_research.py
-      
-      - name: Weekly Research (if Monday)
-        run: |
-          if [ "$(date +%u)" = "1" ]; then
-            cd research
-            python3 weekly_ai_research.py
-          fi
-      
-      - name: GitHub Bridge Sync
-        run: |
-          cd connection
-          python3 github_hf_bridge.py
-      
-      - name: Intelligence Test (daily)
-        run: |
-          if [ "$(date +%H)" = "00" ]; then
-            cd connection
-            python3 intelligence_test.py
-          fi
-      
-      - name: Apply 50 Smarter Things
-        run: |
-          cd research
           python3 apply_smarter.py
       
-      - name: Commit progress
+      - name: Commit
         run: |
-          cd ..
+          git config user.email "bot@antidetect.local"
+          git config user.name "Auto-Learner"
           git add -A
-          git commit -m "🧠 Auto-learn cycle $(date +%H:%M) - Score improving" || echo "No changes"
-          git push origin main || echo "Push failed"
+          git commit -m "🧠 Cycle $(date +%H:%M)" || echo "No changes"
+          git push origin main || true
