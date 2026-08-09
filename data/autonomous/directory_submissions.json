@@ -1,0 +1,22 @@
+[
+  {
+    "name": "BetaList",
+    "url": "https://betalist.com/submit",
+    "auto": false
+  },
+  {
+    "name": "ProductHunt",
+    "url": "https://producthunt.com/posts/new",
+    "auto": false
+  },
+  {
+    "name": "HackerNews",
+    "url": "https://news.ycombinator.com/submit",
+    "auto": false
+  },
+  {
+    "name": "IndieHackers",
+    "url": "https://indiehackers.com/post",
+    "auto": false
+  }
+]

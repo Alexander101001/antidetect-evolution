@@ -1,0 +1,59 @@
+{
+  "runs": [
+    {
+      "timestamp": "2026-08-10T01:42:26.140900",
+      "tasks": [
+        {
+          "task": "content",
+          "posts": 300,
+          "status": "done"
+        },
+        {
+          "task": "jobs",
+          "proposals": 10,
+          "status": "ready"
+        },
+        {
+          "task": "seo",
+          "status": "sitemap_created"
+        },
+        {
+          "task": "evolution",
+          "status": "ran"
+        },
+        {
+          "task": "learning",
+          "status": "ran"
+        },
+        {
+          "task": "oracle",
+          "status": "checked"
+        },
+        {
+          "task": "social_posts",
+          "status": "queued"
+        },
+        {
+          "task": "blogs",
+          "status": "generated"
+        },
+        {
+          "task": "keywords",
+          "count": 20,
+          "status": "done"
+        },
+        {
+          "task": "directories",
+          "status": "list_created"
+        },
+        {
+          "task": "monitor",
+          "status": "down"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "tasks_done": 11
+  }
+}

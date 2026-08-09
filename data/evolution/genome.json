@@ -19,17 +19,17 @@
       "internet"
     ],
     "metrics": {
-      "fitness": 2.5033518575855913
+      "fitness": 26.699472175152668
     },
     "attempts": 1,
     "successes": 1,
     "failures": 0,
-    "revenue": 4.172253095975986,
+    "revenue": 44.499120291921116,
     "cost": 0.0,
     "confidence": 0.6,
     "status": "scaling",
-    "discovered_at": "2026-08-09 10:07:54",
-    "last_executed": "2026-08-09 10:08:18",
+    "discovered_at": "2026-08-10 01:42:26",
+    "last_executed": "2026-08-10 01:42:52",
     "mutations": 0,
     "generation": 0
   },
@@ -53,17 +53,17 @@
       "internet"
     ],
     "metrics": {
-      "fitness": 5.8861111579972585
+      "fitness": 30.458790366377144
     },
     "attempts": 1,
     "successes": 1,
     "failures": 0,
-    "revenue": 9.810185263328764,
+    "revenue": 50.76465061062858,
     "cost": 0.0,
     "confidence": 0.6,
     "status": "scaling",
-    "discovered_at": "2026-08-09 10:07:54",
-    "last_executed": "2026-08-09 10:08:18",
+    "discovered_at": "2026-08-10 01:42:26",
+    "last_executed": "2026-08-10 01:42:52",
     "mutations": 0,
     "generation": 0
   },
@@ -87,17 +87,17 @@
       "internet"
     ],
     "metrics": {
-      "fitness": 57.45747866862468
+      "fitness": 1.6400114589468773
     },
     "attempts": 1,
     "successes": 1,
     "failures": 0,
-    "revenue": 95.7624644477078,
+    "revenue": 2.733352431578129,
     "cost": 0.0,
     "confidence": 0.6,
     "status": "scaling",
-    "discovered_at": "2026-08-09 10:07:54",
-    "last_executed": "2026-08-09 10:08:18",
+    "discovered_at": "2026-08-10 01:42:26",
+    "last_executed": "2026-08-10 01:42:52",
     "mutations": 0,
     "generation": 0
   },
@@ -121,17 +121,17 @@
       "internet"
     ],
     "metrics": {
-      "fitness": 20.30072100028794
+      "fitness": 2.787987662181566
     },
     "attempts": 1,
     "successes": 1,
     "failures": 0,
-    "revenue": 33.8345350004799,
+    "revenue": 4.646646103635943,
     "cost": 0.0,
     "confidence": 0.6,
     "status": "scaling",
-    "discovered_at": "2026-08-09 10:07:54",
-    "last_executed": "2026-08-09 10:08:18",
+    "discovered_at": "2026-08-10 01:42:26",
+    "last_executed": "2026-08-10 01:42:52",
     "mutations": 0,
     "generation": 0
   },
@@ -155,17 +155,17 @@
       "internet"
     ],
     "metrics": {
-      "fitness": 0.0
+      "fitness": 49.94922453314603
     },
     "attempts": 1,
-    "successes": 0,
-    "failures": 1,
-    "revenue": 0.0,
+    "successes": 1,
+    "failures": 0,
+    "revenue": 83.24870755524339,
     "cost": 0.0,
-    "confidence": 0.45,
+    "confidence": 0.6,
     "status": "scaling",
-    "discovered_at": "2026-08-09 10:07:54",
-    "last_executed": "2026-08-09 10:08:18",
+    "discovered_at": "2026-08-10 01:42:26",
+    "last_executed": "2026-08-10 01:42:52",
     "mutations": 0,
     "generation": 0
   },
@@ -198,7 +198,7 @@
     "cost": 0.0,
     "confidence": 0.5,
     "status": "scaling",
-    "discovered_at": "2026-08-09 10:07:54",
+    "discovered_at": "2026-08-10 01:42:26",
     "last_executed": "",
     "mutations": 0,
     "generation": 0
@@ -231,8 +231,8 @@
     "revenue": 0.0,
     "cost": 0.0,
     "confidence": 0.5,
-    "status": "testing",
-    "discovered_at": "2026-08-09 10:07:54",
+    "status": "scaling",
+    "discovered_at": "2026-08-10 01:42:26",
     "last_executed": "",
     "mutations": 0,
     "generation": 0
@@ -265,8 +265,8 @@
     "revenue": 0.0,
     "cost": 0.0,
     "confidence": 0.5,
-    "status": "testing",
-    "discovered_at": "2026-08-09 10:07:54",
+    "status": "scaling",
+    "discovered_at": "2026-08-10 01:42:26",
     "last_executed": "",
     "mutations": 0,
     "generation": 0
@@ -299,8 +299,8 @@
     "revenue": 0.0,
     "cost": 0.0,
     "confidence": 0.5,
-    "status": "testing",
-    "discovered_at": "2026-08-09 10:07:54",
+    "status": "scaling",
+    "discovered_at": "2026-08-10 01:42:26",
     "last_executed": "",
     "mutations": 0,
     "generation": 0
@@ -333,8 +333,8 @@
     "revenue": 0.0,
     "cost": 0.0,
     "confidence": 0.5,
-    "status": "testing",
-    "discovered_at": "2026-08-09 10:07:54",
+    "status": "scaling",
+    "discovered_at": "2026-08-10 01:42:26",
     "last_executed": "",
     "mutations": 0,
     "generation": 0
@@ -367,8 +367,8 @@
     "revenue": 0.0,
     "cost": 0.0,
     "confidence": 0.5,
-    "status": "testing",
-    "discovered_at": "2026-08-09 10:07:54",
+    "status": "scaling",
+    "discovered_at": "2026-08-10 01:42:26",
     "last_executed": "",
     "mutations": 0,
     "generation": 0
@@ -401,8 +401,8 @@
     "revenue": 0.0,
     "cost": 0.0,
     "confidence": 0.5,
-    "status": "testing",
-    "discovered_at": "2026-08-09 10:07:54",
+    "status": "scaling",
+    "discovered_at": "2026-08-10 01:42:26",
     "last_executed": "",
     "mutations": 0,
     "generation": 0
@@ -436,7 +436,7 @@
     "cost": 0.0,
     "confidence": 0.5,
     "status": "testing",
-    "discovered_at": "2026-08-09 10:07:54",
+    "discovered_at": "2026-08-10 01:42:26",
     "last_executed": "",
     "mutations": 0,
     "generation": 0
@@ -470,7 +470,7 @@
     "cost": 0.0,
     "confidence": 0.5,
     "status": "testing",
-    "discovered_at": "2026-08-09 10:07:54",
+    "discovered_at": "2026-08-10 01:42:26",
     "last_executed": "",
     "mutations": 0,
     "generation": 0
@@ -503,8 +503,8 @@
     "revenue": 0.0,
     "cost": 0.0,
     "confidence": 0.5,
-    "status": "archived",
-    "discovered_at": "2026-08-09 10:07:54",
+    "status": "testing",
+    "discovered_at": "2026-08-10 01:42:26",
     "last_executed": "",
     "mutations": 0,
     "generation": 0
@@ -537,8 +537,8 @@
     "revenue": 0.0,
     "cost": 0.0,
     "confidence": 0.5,
-    "status": "archived",
-    "discovered_at": "2026-08-09 10:07:54",
+    "status": "testing",
+    "discovered_at": "2026-08-10 01:42:26",
     "last_executed": "",
     "mutations": 0,
     "generation": 0
@@ -571,8 +571,8 @@
     "revenue": 0.0,
     "cost": 0.0,
     "confidence": 0.5,
-    "status": "archived",
-    "discovered_at": "2026-08-09 10:07:54",
+    "status": "testing",
+    "discovered_at": "2026-08-10 01:42:26",
     "last_executed": "",
     "mutations": 0,
     "generation": 0
@@ -605,8 +605,8 @@
     "revenue": 0.0,
     "cost": 0.0,
     "confidence": 0.5,
-    "status": "archived",
-    "discovered_at": "2026-08-09 10:07:54",
+    "status": "testing",
+    "discovered_at": "2026-08-10 01:42:26",
     "last_executed": "",
     "mutations": 0,
     "generation": 0
@@ -639,8 +639,8 @@
     "revenue": 0.0,
     "cost": 0.0,
     "confidence": 0.5,
-    "status": "archived",
-    "discovered_at": "2026-08-09 10:07:54",
+    "status": "testing",
+    "discovered_at": "2026-08-10 01:42:26",
     "last_executed": "",
     "mutations": 0,
     "generation": 0
@@ -673,22 +673,652 @@
     "revenue": 0.0,
     "cost": 0.0,
     "confidence": 0.5,
-    "status": "archived",
-    "discovered_at": "2026-08-09 10:07:54",
+    "status": "testing",
+    "discovered_at": "2026-08-10 01:42:26",
     "last_executed": "",
     "mutations": 0,
     "generation": 0
   },
-  "strat_3900dd94": {
-    "id": "strat_3900dd94",
-    "name": "Telegram Channel Monetization (aggressive)",
-    "category": "content",
-    "description": "Build niche channel, sell premium membership or affiliate",
-    "initial_capital": 0.0,
-    "expected_roi": 100,
+  "novel_e89cd8e9": {
+    "id": "novel_e89cd8e9",
+    "name": "Novel: What side hustles are actually working in 2026? : ",
+    "category": "novel",
+    "description": "What side hustles are actually working in 2026? : r/passive_income - Reddit",
+    "initial_capital": 0,
+    "expected_roi": 200,
     "risk_level": 5,
     "execution_steps": [
-      "Research: ['Crypto signals', 'Job alerts', 'Deal aggregator']",
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-10 01:42:30",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_af5e252a": {
+    "id": "novel_af5e252a",
+    "name": "Novel: Discover 25 side hustle ideas for 2026, from AI-po",
+    "category": "novel",
+    "description": "Discover 25 side hustle ideas for 2026, from AI-powered gigs to pet sitting, with realistic earning potential and tips for getting started.",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-10 01:42:30",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_1ea3a3d8": {
+    "id": "novel_1ea3a3d8",
+    "name": "Novel: Pick up freelance work online, Drive for Uber or L",
+    "category": "novel",
+    "description": "Pick up freelance work online, Drive for Uber or Lyft, Make deliveries, Sign up for Taskrabbit, Sell gold, plus 15 other realistic ways to ...",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-10 01:42:30",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_e0620ec3": {
+    "id": "novel_e0620ec3",
+    "name": "Novel: 30 Micro SaaS Ideas Reddit Is Begging You to Build",
+    "category": "novel",
+    "description": "30 Micro SaaS Ideas Reddit Is Begging You to Build in 2026",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-10 01:42:35",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_5058f31b": {
+    "id": "novel_5058f31b",
+    "name": "Novel: # 30 Micro SaaS Ideas Reddit Is Begging You to Bui",
+    "category": "novel",
+    "description": "# 30 Micro SaaS Ideas Reddit Is Begging You to Build in 2026",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-10 01:42:35",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_6fd14d2a": {
+    "id": "novel_6fd14d2a",
+    "name": "Novel: [![LinkedIn icon](https://cdn.prod.website-files.c",
+    "category": "novel",
+    "description": "[![LinkedIn icon](https://cdn.prod.website-files.com/673b4d560235ebd520c62624/67cb1d1b3d5b8c43613e8763_LinkedIn.svg)](https://www.greensighter.com/blog/micro-saas-ideas#)[![X icon](https://cdn.prod.we",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-10 01:42:35",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_94777bb5": {
+    "id": "novel_94777bb5",
+    "name": "Novel: ![](https://cdn.prod.website-files.com/6758a60f42c",
+    "category": "novel",
+    "description": "![](https://cdn.prod.website-files.com/6758a60f42c5a5573226dcf1/6a679be55b9764adaf16a446_30%20Micro%20SaaS%20Ideas.webp)",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-10 01:42:35",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_5c4b398c": {
+    "id": "novel_5c4b398c",
+    "name": "Novel: 30 Micro SaaS Ideas Infographic",
+    "category": "novel",
+    "description": "30 Micro SaaS Ideas Infographic",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-10 01:42:35",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_d189a637": {
+    "id": "novel_d189a637",
+    "name": "Novel: Whether you're a solo technical founder or a domai",
+    "category": "novel",
+    "description": "Whether you're a solo technical founder or a domain expert with no coding skills, there's an AI business opportunity here that fits your profile.",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-10 01:42:40",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_2ee8c725": {
+    "id": "novel_2ee8c725",
+    "name": "Novel: Top 10 AI Business Ideas You Can Start in 2026 (Lo",
+    "category": "novel",
+    "description": "Top 10 AI Business Ideas You Can Start in 2026 (Low-Cost ...",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-10 01:42:40",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_580f5291": {
+    "id": "novel_580f5291",
+    "name": "Novel: # Top 10 AI Business Ideas You Can Start in 2026 (",
+    "category": "novel",
+    "description": "# Top 10 AI Business Ideas You Can Start in 2026 (Low-Cost, High-Potential)",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-10 01:42:40",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_20da10b0": {
+    "id": "novel_20da10b0",
+    "name": "Novel: ### What this business actually does",
+    "category": "novel",
+    "description": "### What this business actually does",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-10 01:42:40",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_31cceb36": {
+    "id": "novel_31cceb36",
+    "name": "Novel: Many solo founders consolidate scripting, editing,",
+    "category": "novel",
+    "description": "Many solo founders consolidate scripting, editing, [music with AI song generator](https://melodycraft.ai/), and image generation into an all-in-one workflow, similar to the consolidated tool stacks de",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-10 01:42:40",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_26ab93dd": {
+    "id": "novel_26ab93dd",
+    "name": "Novel: I\u2019m curious what people are doing right now that\u2019s",
+    "category": "novel",
+    "description": "I\u2019m curious what people are doing right now that\u2019s realistically making extra income in 2026 especially things that aren\u2019t just \u201csell a course\u201d ...",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-10 01:42:45",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_416524d8": {
+    "id": "novel_416524d8",
+    "name": "Novel: For those looking to generate an extra income alon",
+    "category": "novel",
+    "description": "For those looking to generate an extra income alongside another full-time commitment. Is Uber Eats still viable in 2026 or is there better/similar other jobs ...",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-10 01:42:45",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_09fceeb1": {
+    "id": "novel_09fceeb1",
+    "name": "Novel: 1. Faceless TikTok accounts promoting apps \u00b7 2. Se",
+    "category": "novel",
+    "description": "1. Faceless TikTok accounts promoting apps \u00b7 2. Selling digital resources for teachers \u00b7 3. Simple AI automation services \u00b7 4. Reddit ghostwriting ...",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-10 01:42:45",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_fe289ebc": {
+    "id": "novel_fe289ebc",
+    "name": "Novel: What digital products are actually selling in 2026",
+    "category": "novel",
+    "description": "What digital products are actually selling in 2026? (non-hype answers ...",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-10 01:42:50",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_e915e21c": {
+    "id": "novel_e915e21c",
+    "name": "Novel: Best Digital Products to Sell in 2026: Top 18 Most",
+    "category": "novel",
+    "description": "Best Digital Products to Sell in 2026: Top 18 Most Profitable Ideas - Amasty",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-10 01:42:50",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_694f52ac": {
+    "id": "novel_694f52ac",
+    "name": "Novel: # 18 Best Digital Products to Sell in 2026: Top Tr",
+    "category": "novel",
+    "description": "# 18 Best Digital Products to Sell in 2026: Top Trending, Profitable, and In-Demand Ideas",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-10 01:42:50",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_be1e6a2e": {
+    "id": "novel_be1e6a2e",
+    "name": "Novel: ## 18 Best Digital Products to Sell in 2026",
+    "category": "novel",
+    "description": "## 18 Best Digital Products to Sell in 2026",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-10 01:42:50",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "novel_9421f74a": {
+    "id": "novel_9421f74a",
+    "name": "Novel: - E-books and audiobooks - **$\u202f26.04B**",
+    "category": "novel",
+    "description": "- E-books and audiobooks - **$\u202f26.04B**",
+    "initial_capital": 0,
+    "expected_roi": 200,
+    "risk_level": 5,
+    "execution_steps": [
+      "Research",
+      "Test",
+      "Iterate",
+      "Scale"
+    ],
+    "dependencies": [],
+    "metrics": {
+      "fitness": 0.0
+    },
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "archived",
+    "discovered_at": "2026-08-10 01:42:50",
+    "last_executed": "",
+    "mutations": 0,
+    "generation": 0
+  },
+  "strat_fd42fea8": {
+    "id": "strat_fd42fea8",
+    "name": "Micro-Productivity SaaS (variant)",
+    "category": "digital_product",
+    "description": "Build tiny tool solving specific problem (markdown editor, snippet manager)",
+    "initial_capital": 0,
+    "expected_roi": 104.09227587213725,
+    "risk_level": 4,
+    "execution_steps": [
+      "Research: ['JSON formatter', 'Regex tester', 'Color picker']",
       "Build MVP (free tools)",
       "Test with 10 users",
       "Iterate based on feedback",
@@ -706,51 +1336,18 @@
     "cost": 0.0,
     "confidence": 0.5,
     "status": "testing",
-    "discovered_at": "2026-08-09 10:08:18",
+    "discovered_at": "2026-08-10 01:42:52",
     "last_executed": "",
     "mutations": 1,
     "generation": 1
   },
-  "strat_0da13014": {
-    "id": "strat_0da13014",
-    "name": "Print on Demand Art (expanded)",
-    "category": "digital_product",
-    "description": "Generate AI art, upload to Redbubble/TeePublic Expanded to multiple niches.",
-    "initial_capital": 0,
-    "expected_roi": 100,
-    "risk_level": 2,
-    "execution_steps": [
-      "Research: ['Niche quotes', 'Pet portraits', 'Hobby designs']",
-      "Build MVP (free tools)",
-      "Test with 10 users",
-      "Iterate based on feedback",
-      "Scale if validated",
-      "Test 3 niches simultaneously"
-    ],
-    "dependencies": [
-      "time",
-      "internet"
-    ],
-    "metrics": {},
-    "attempts": 0,
-    "successes": 0,
-    "failures": 0,
-    "revenue": 0.0,
-    "cost": 0.0,
-    "confidence": 0.5,
-    "status": "testing",
-    "discovered_at": "2026-08-09 10:08:18",
-    "last_executed": "",
-    "mutations": 1,
-    "generation": 1
-  },
-  "strat_6a9b7f12": {
-    "id": "strat_6a9b7f12",
+  "strat_9e879a00": {
+    "id": "strat_9e879a00",
     "name": "AI Prompt Library (variant)",
-    "category": "service",
+    "category": "passive",
     "description": "Curate and sell GPT prompts on Gumroad/Lemonsqueezy",
     "initial_capital": 0,
-    "expected_roi": 90.59723644366224,
+    "expected_roi": 131.75188741792311,
     "risk_level": 1,
     "execution_steps": [
       "Research: ['Marketing prompts', 'Code review prompts', 'Writing prompts']",
@@ -771,19 +1368,19 @@
     "cost": 0.0,
     "confidence": 0.5,
     "status": "testing",
-    "discovered_at": "2026-08-09 10:08:18",
+    "discovered_at": "2026-08-10 01:42:52",
     "last_executed": "",
     "mutations": 1,
     "generation": 1
   },
-  "strat_034fbcdf": {
-    "id": "strat_034fbcdf",
-    "name": "API Wrapper Service (B2B)",
-    "category": "saas",
-    "description": "Wrap free API with value-add (caching, formatting, analytics), charge subscription (B2C only)",
+  "strat_51888fdb": {
+    "id": "strat_51888fdb",
+    "name": "API Wrapper Service (variant)",
+    "category": "passive",
+    "description": "Wrap free API with value-add (caching, formatting, analytics), charge subscription",
     "initial_capital": 0,
-    "expected_roi": 100,
-    "risk_level": 3,
+    "expected_roi": 102.77830240566696,
+    "risk_level": 4,
     "execution_steps": [
       "Research: ['Twitter API wrapper', 'LinkedIn scraper API', 'Crypto price API']",
       "Build MVP (free tools)",
@@ -803,21 +1400,53 @@
     "cost": 0.0,
     "confidence": 0.5,
     "status": "testing",
-    "discovered_at": "2026-08-09 10:08:18",
+    "discovered_at": "2026-08-10 01:42:52",
     "last_executed": "",
     "mutations": 1,
     "generation": 1
   },
-  "strat_d38f01be": {
-    "id": "strat_d38f01be",
-    "name": "Micro-Productivity SaaS (expanded)",
-    "category": "saas",
-    "description": "Build tiny tool solving specific problem (markdown editor, snippet manager) Expanded to multiple niches.",
+  "strat_9f50f0d2": {
+    "id": "strat_9f50f0d2",
+    "name": "Print on Demand Art (aggressive)",
+    "category": "digital_product",
+    "description": "Generate AI art, upload to Redbubble/TeePublic",
+    "initial_capital": 0.0,
+    "expected_roi": 100,
+    "risk_level": 4,
+    "execution_steps": [
+      "Research: ['Niche quotes', 'Pet portraits', 'Hobby designs']",
+      "Build MVP (free tools)",
+      "Test with 10 users",
+      "Iterate based on feedback",
+      "Scale if validated"
+    ],
+    "dependencies": [
+      "time",
+      "internet"
+    ],
+    "metrics": {},
+    "attempts": 0,
+    "successes": 0,
+    "failures": 0,
+    "revenue": 0.0,
+    "cost": 0.0,
+    "confidence": 0.5,
+    "status": "testing",
+    "discovered_at": "2026-08-10 01:42:52",
+    "last_executed": "",
+    "mutations": 1,
+    "generation": 1
+  },
+  "strat_56e71983": {
+    "id": "strat_56e71983",
+    "name": "Telegram Channel Monetization (expanded)",
+    "category": "content",
+    "description": "Build niche channel, sell premium membership or affiliate Expanded to multiple niches.",
     "initial_capital": 0,
     "expected_roi": 100,
     "risk_level": 4,
     "execution_steps": [
-      "Research: ['JSON formatter', 'Regex tester', 'Color picker']",
+      "Research: ['Crypto signals', 'Job alerts', 'Deal aggregator']",
       "Build MVP (free tools)",
       "Test with 10 users",
       "Iterate based on feedback",
@@ -836,7 +1465,7 @@
     "cost": 0.0,
     "confidence": 0.5,
     "status": "testing",
-    "discovered_at": "2026-08-09 10:08:18",
+    "discovered_at": "2026-08-10 01:42:52",
     "last_executed": "",
     "mutations": 1,
     "generation": 1

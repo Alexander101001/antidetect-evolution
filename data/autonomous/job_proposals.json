@@ -1,0 +1,62 @@
+[
+  {
+    "job": "Build a calculator web tool",
+    "platform": "Upwork",
+    "status": "ready_to_submit",
+    "needs": "user_to_click_submit"
+  },
+  {
+    "job": "Create content for tech blog",
+    "platform": "Upwork",
+    "status": "ready_to_submit",
+    "needs": "user_to_click_submit"
+  },
+  {
+    "job": "SEO optimization",
+    "platform": "Upwork",
+    "status": "ready_to_submit",
+    "needs": "user_to_click_submit"
+  },
+  {
+    "job": "Build simple web app",
+    "platform": "Upwork",
+    "status": "ready_to_submit",
+    "needs": "user_to_click_submit"
+  },
+  {
+    "job": "WordPress blog post writing",
+    "platform": "Upwork",
+    "status": "ready_to_submit",
+    "needs": "user_to_click_submit"
+  },
+  {
+    "job": "Email marketing copy",
+    "platform": "Upwork",
+    "status": "ready_to_submit",
+    "needs": "user_to_click_submit"
+  },
+  {
+    "job": "Resume writing",
+    "platform": "Upwork",
+    "status": "ready_to_submit",
+    "needs": "user_to_click_submit"
+  },
+  {
+    "job": "Cover letter writing",
+    "platform": "Upwork",
+    "status": "ready_to_submit",
+    "needs": "user_to_click_submit"
+  },
+  {
+    "job": "Social media content",
+    "platform": "Upwork",
+    "status": "ready_to_submit",
+    "needs": "user_to_click_submit"
+  },
+  {
+    "job": "Product description writing",
+    "platform": "Upwork",
+    "status": "ready_to_submit",
+    "needs": "user_to_click_submit"
+  }
+]
