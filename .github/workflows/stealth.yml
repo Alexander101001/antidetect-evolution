@@ -1,0 +1,26 @@
+name: 🥷 Stealth Cycle
+
+on:
+  schedule:
+    - cron: '23 2,6,10,13,16,19,22 * * *'  # 7 random times
+  workflow_dispatch:
+
+jobs:
+  stealth:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      
+      - name: Stealth operation
+        run: |
+          python3 lib/stealth_worker.py
+          
+      - name: Report
+        if: always()
+        run: echo "Stealth cycle done"

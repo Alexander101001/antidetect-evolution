@@ -1,0 +1,19 @@
+name: 💰 Earnings Tracker
+
+on:
+  schedule:
+    - cron: '37 8,12,18 * * *'  # 3x daily, random minutes
+  workflow_dispatch:
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - run: python3 lib/earnings_tracker.py
