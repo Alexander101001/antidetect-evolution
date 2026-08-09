@@ -1,0 +1,59 @@
+name: 🧠 Continuous Learning (24/7)
+
+on:
+  schedule:
+    # Every 30 minutes
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  learn:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install deps
+        run: pip install requests
+      
+      - name: Micro Learn (every cycle)
+        run: |
+          cd research
+          python3 micro_research.py
+      
+      - name: Weekly Research (if Monday)
+        run: |
+          if [ "$(date +%u)" = "1" ]; then
+            cd research
+            python3 weekly_ai_research.py
+          fi
+      
+      - name: GitHub Bridge Sync
+        run: |
+          cd connection
+          python3 github_hf_bridge.py
+      
+      - name: Intelligence Test (daily)
+        run: |
+          if [ "$(date +%H)" = "00" ]; then
+            cd connection
+            python3 intelligence_test.py
+          fi
+      
+      - name: Apply 50 Smarter Things
+        run: |
+          cd research
+          python3 apply_smarter.py
+      
+      - name: Commit progress
+        run: |
+          cd ..
+          git add -A
+          git commit -m "🧠 Auto-learn cycle $(date +%H:%M) - Score improving" || echo "No changes"
+          git push origin main || echo "Push failed"
