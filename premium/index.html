@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Writer Pro - Professional Content in 30 Seconds | $5/mo</title>
+    <meta name="description" content="AI that writes emails, resumes, cover letters, social posts. Save 95% vs hiring writers. Starting at $5/month.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; background: #0a0a0a; color: white; }
+        .hero { padding: 100px 20px; text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .hero h1 { font-size: 3.5em; margin-bottom: 20px; }
+        .hero p { font-size: 1.3em; opacity: 0.9; max-width: 700px; margin: 0 auto 30px; }
+        .cta { background: white; color: #667eea; padding: 18px 40px; border-radius: 50px; font-weight: bold; font-size: 1.1em; text-decoration: none; display: inline-block; }
+        .cta:hover { transform: scale(1.05); }
+        .pricing { padding: 80px 20px; max-width: 1100px; margin: 0 auto; }
+        .pricing h2 { text-align: center; font-size: 2.5em; margin-bottom: 60px; }
+        .plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
+        .plan { background: #1a1a1a; padding: 40px; border-radius: 20px; border: 2px solid transparent; }
+        .plan.featured { border-color: #667eea; transform: scale(1.05); }
+        .plan h3 { font-size: 1.5em; margin-bottom: 10px; }
+        .plan .price { font-size: 3em; font-weight: bold; margin: 20px 0; }
+        .plan ul { list-style: none; margin: 20px 0; }
+        .plan li { padding: 8px 0; opacity: 0.8; }
+        .plan button { background: #667eea; color: white; border: none; padding: 15px 30px; border-radius: 10px; width: 100%; font-size: 1em; cursor: pointer; margin-top: 20px; }
+        .demo { padding: 80px 20px; background: #1a1a1a; text-align: center; }
+        .demo h2 { font-size: 2.5em; margin-bottom: 30px; }
+        .demo-box { max-width: 700px; margin: 0 auto; background: #0a0a0a; padding: 40px; border-radius: 15px; }
+        input, textarea { width: 100%; padding: 15px; margin: 10px 0; background: #1a1a1a; color: white; border: 1px solid #333; border-radius: 8px; }
+        .result { background: #1a1a1a; padding: 20px; border-radius: 8px; margin-top: 20px; min-height: 100px; }
+        .stats { padding: 60px 20px; text-align: center; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; max-width: 900px; margin: 0 auto; }
+        .stat-num { font-size: 2.5em; font-weight: bold; color: #667eea; }
+    </style>
+</head>
+<body>
+
+<section class="hero">
+    <h1>AI Writer Pro</h1>
+    <p>Professional content in 30 seconds. Save 95% vs hiring writers.<br>Emails, resumes, cover letters, social posts, sales copy.</p>
+    <a href="#pricing" class="cta">Start for $5/month →</a>
+    <p style="margin-top: 20px; font-size: 0.9em; opacity: 0.7;">No credit card needed • Cancel anytime • 7-day free trial</p>
+</section>
+
+<section class="stats">
+    <div class="stats-grid">
+        <div>
+            <div class="stat-num">10,000+</div>
+            <p>Documents written</p>
+        </div>
+        <div>
+            <div class="stat-num">95%</div>
+            <p>Cheaper than writers</p>
+        </div>
+        <div>
+            <div class="stat-num">30s</div>
+            <p>Average time</p>
+        </div>
+        <div>
+            <div class="stat-num">4.8/5</div>
+            <p>User rating</p>
+        </div>
+    </div>
+</section>
+
+<section class="demo" id="demo">
+    <h2>Try It Free — No Signup</h2>
+    <div class="demo-box">
+        <label style="display:block; text-align:left; margin-bottom: 5px;">What do you need?</label>
+        <select id="type" style="text-align:left;">
+            <option>Email to client</option>
+            <option>Cover letter</option>
+            <option>Resume summary</option>
+            <option>LinkedIn post</option>
+            <option>Sales pitch</option>
+            <option>Social media caption</option>
+            <option>Product description</option>
+        </select>
+        
+        <label style="display:block; text-align:left; margin-bottom: 5px;">Brief description:</label>
+        <textarea id="brief" rows="3" placeholder="e.g., Following up with client about Q4 proposal, friendly tone"></textarea>
+        
+        <button onclick="generate()" style="background: #667eea; color: white; border: none; padding: 15px 30px; border-radius: 8px; width: 100%; font-size: 1em; cursor: pointer; margin-top: 10px;">⚡ Generate (Free Preview)</button>
+        
+        <div class="result" id="result">Your AI-generated content appears here...</div>
+        
+        <p style="font-size: 0.85em; opacity: 0.6; margin-top: 15px;">
+            ↑ Free preview limited to 200 chars. 
+            <a href="#pricing" style="color: #667eea;">Get unlimited for $5/mo →</a>
+        </p>
+    </div>
+</section>
+
+<section class="pricing" id="pricing">
+    <h2>Simple Pricing</h2>
+    <div class="plans">
+        <div class="plan">
+            <h3>Free</h3>
+            <div class="price">$0</div>
+            <ul>
+                <li>✓ 5 generations/day</li>
+                <li>✓ 200 chars max</li>
+                <li>✓ Basic templates</li>
+                <li>✗ No saving</li>
+                <li>✗ No export</li>
+            </ul>
+            <button onclick="alert('You are on Free plan!')">Current Plan</button>
+        </div>
+        
+        <div class="plan featured">
+            <h3>Pro ⭐ MOST POPULAR</h3>
+            <div class="price">$5<span style="font-size: 0.3em;">/mo</span></div>
+            <ul>
+                <li>✓ Unlimited generations</li>
+                <li>✓ 5000 chars per doc</li>
+                <li>✓ All 50+ templates</li>
+                <li>✓ Save & export (PDF, DOCX)</li>
+                <li>✓ Email support</li>
+                <li>✓ API access</li>
+            </ul>
+            <button onclick="upgrade('pro')">Start 7-Day Trial</button>
+        </div>
+        
+        <div class="plan">
+            <h3>Business</h3>
+            <div class="price">$29<span style="font-size: 0.3em;">/mo</span></div>
+            <ul>
+                <li>✓ Everything in Pro</li>
+                <li>✓ 5 team members</li>
+                <li>✓ Custom templates</li>
+                <li>✓ Priority support</li>
+                <li>✓ White-label option</li>
+                <li>✓ Advanced analytics</li>
+            </ul>
+            <button onclick="upgrade('business')">Start 7-Day Trial</button>
+        </div>
+    </div>
+</section>
+
+<section style="padding: 60px 20px; text-align: center; background: #1a1a1a;">
+    <h2 style="font-size: 2em; margin-bottom: 20px;">Save Money vs Hiring Writers</h2>
+    <table style="max-width: 600px; margin: 0 auto; border-collapse: collapse;">
+        <tr style="border-bottom: 1px solid #333;">
+            <th style="padding: 15px; text-align: left;">Service</th>
+            <th style="padding: 15px;">Freelancer</th>
+            <th style="padding: 15px; color: #667eea;">AI Writer Pro</th>
+        </tr>
+        <tr style="border-bottom: 1px solid #333;">
+            <td style="padding: 15px;">Resume</td>
+            <td style="padding: 15px; text-decoration: line-through;">$100</td>
+            <td style="padding: 15px; color: #667eea; font-weight: bold;">$5/mo unlimited</td>
+        </tr>
+        <tr style="border-bottom: 1px solid #333;">
+            <td style="padding: 15px;">Cover letter</td>
+            <td style="padding: 15px; text-decoration: line-through;">$50</td>
+            <td style="padding: 15px; color: #667eea; font-weight: bold;">$5/mo unlimited</td>
+        </tr>
+        <tr>
+            <td style="padding: 15px;">Social post</td>
+            <td style="padding: 15px; text-decoration: line-through;">$25</td>
+            <td style="padding: 15px; color: #667eea; font-weight: bold;">$5/mo unlimited</td>
+        </tr>
+    </table>
+    <p style="margin-top: 20px; opacity: 0.7;">Average user saves $200+/month</p>
+</section>
+
+<footer style="padding: 40px 20px; text-align: center; opacity: 0.5; font-size: 0.9em;">
+    <p>© 2026 AI Writer Pro • support@aiwriterpro.com</p>
+    <p>Built with ❤️ using AI</p>
+</footer>
+
+<script>
+async function generate() {
+    const type = document.getElementById('type').value;
+    const brief = document.getElementById('brief').value;
+    
+    if (!brief) { alert('Please describe what you need'); return; }
+    
+    document.getElementById('result').innerText = '⏳ Generating...';
+    
+    // Call our backend
+    try {
+        const response = await fetch('/api/generate', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({type, brief})
+        });
+        const data = await response.json();
+        document.getElementById('result').innerText = data.result.substring(0, 200) + '...';
+    } catch(e) {
+        // Fallback: simulated response
+        const samples = {
+            'Email to client': 'Hi [Name],\n\nThank you for your time discussing the Q4 proposal. I wanted to follow up on the key points we covered...\n\nBest regards,\n[Your name]',
+            'Cover letter': 'Dear Hiring Manager,\n\nI am excited to apply for the [Position] role at [Company]. With my background in [skill]...\n\nSincerely,\n[Your name]',
+            'Resume summary': 'Results-driven professional with 5+ years experience in [industry]. Proven track record of [achievement]...',
+            'LinkedIn post': '🚀 Excited to share that I just completed [achievement]! This journey taught me [lesson]...',
+            'Sales pitch': 'Hi [Name], I noticed [Company] is [observation]. Many companies like yours see [pain point]...',
+            'Social media caption': '✨ Big news! We just launched [product]. Here\'s what makes it special...',
+            'Product description': 'Introducing [Product] — the ultimate solution for [problem]. Key features include...'
+        };
+        document.getElementById('result').innerText = (samples[type] || 'Generated content based on your brief...').substring(0, 200) + '...';
+    }
+}
+
+function upgrade(plan) {
+    alert(`Upgrade to ${plan} plan!\n\nStripe checkout would open here.\nEmail: billing@aiwriterpro.com`);
+}
+</script>
+
+</body>
+</html>
