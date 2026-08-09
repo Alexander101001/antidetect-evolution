@@ -1,0 +1,37 @@
+name: 💰 Empire Cycle
+
+on:
+  schedule:
+    # Every 3 hours (00, 03, 06, 09, 12, 15, 18, 21)
+    - cron: '7 0,3,6,9,12,15,18,21 * * *'
+  workflow_dispatch:
+
+jobs:
+  cycle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install deps
+        run: pip install requests
+      
+      - name: Run empire cycle
+        run: |
+          cd empire
+          python3 analytics_tracker.py
+          python3 opportunity_finder.py
+          python3 tool_generator.py
+          python3 send_report.py
+      
+      - name: Commit updates
+        run: |
+          git add -A
+          git commit -m "🤖 Empire cycle $(date +%H:%M)" || echo "No changes"
+          git push origin main
