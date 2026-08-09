@@ -2,7 +2,7 @@ name: 🥷 Stealth Cycle
 
 on:
   schedule:
-    - cron: '23 2,6,10,13,16,19,22 * * *'  # 7 random times
+    - cron: '23 2,6,10,13,16,19,22 * * *'
   workflow_dispatch:
 
 jobs:
@@ -16,11 +16,4 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install requests
-      
-      - name: Stealth operation
-        run: |
-          python3 lib/stealth_worker.py
-          
-      - name: Report
-        if: always()
-        run: echo "Stealth cycle done"
+      - run: python3 lib/stealth_worker.py
