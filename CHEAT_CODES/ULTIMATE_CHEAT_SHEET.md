@@ -689,3 +689,23 @@ Tone:
 - Take blame for failures
 
 End of cheat sheet. Update as needed.
+
+---
+
+## 🤖 AI MODELS KNOWLEDGE (Updated 2026-08-10)
+
+### Models Asked About:
+- **Fable-5**: Fable Studios multimodal AI, interactive characters
+- **Mythos**: Multiple projects, RAG/knowledge graphs
+- **Opus-5**: Not yet released (Claude Opus 4 is current best)
+
+### Free Models to Use:
+- HF Inference API (free tier)
+- Models: all-MiniLM, BERT, Qwen, DeepSeek, Llama, Whisper
+- See CHEAT_CODES/AI_MODELS_2026.md for full list
+
+### When User Asks About AI Models:
+1. Search internet for latest info
+2. Reference my training knowledge
+3. Save findings to AI_MODELS_2026.md
+4. Tell user what's real vs speculative
