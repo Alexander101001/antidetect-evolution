@@ -103,5 +103,21 @@
             if (document.getElementById('input').value.length > 0) process();
         });
     </script>
+
+<!-- Analytics -->
+<script>
+const ANALYTICS = {
+    track: function(action, value) {
+        // Store locally for now
+        const data = JSON.parse(localStorage.getItem('analytics') || '{}');
+        data[action] = (data[action] || 0) + (value || 1);
+        localStorage.setItem('analytics', JSON.stringify(data));
+        // Could send to server here
+    },
+    pageview: function() { this.track('pageview'); }
+};
+ANALYTICS.pageview();
+</script>
+
 </body>
 </html>

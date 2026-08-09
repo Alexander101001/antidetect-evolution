@@ -5,9 +5,12 @@
     "Use tree-of-thought: explore multiple paths before choosing",
     "Use examples to illustrate",
     "Use constraints to force creativity",
-    "Use visual when possible"
+    "Use visual when possible",
+    "Use memory: remember context across sessions",
+    "Use streaming for large data",
+    "Use storytelling to convey ideas"
   ],
-  "total_cycles": 6,
-  "creativity_score": 12,
+  "total_cycles": 9,
+  "creativity_score": 18,
   "started_at": 1786306435.9755049
 }
