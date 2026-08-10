@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout - AI Suite</title>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: -apple-system, sans-serif; max-width: 600px; margin: 50px auto; padding: 20px; background: #0a0a0a; color: white; }
+        h1 { text-align: center; }
+        .product { background: #1a1a1a; padding: 20px; border-radius: 10px; margin: 20px 0; }
+        .product h2 { color: #667eea; }
+        .price { font-size: 2em; color: #667eea; font-weight: bold; }
+        .payment-method { background: #1a1a1a; padding: 20px; border-radius: 10px; margin: 15px 0; cursor: pointer; transition: 0.3s; }
+        .payment-method:hover { background: #2a2a2a; }
+        .qr-code { width: 200px; height: 200px; background: white; margin: 20px auto; padding: 10px; }
+        .wallet-address { background: #1a1a1a; padding: 15px; border-radius: 5px; font-family: monospace; word-break: break-all; margin: 10px 0; }
+        .copy-btn { background: #667eea; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; }
+        .instructions { background: #1a3a1a; padding: 15px; border-radius: 10px; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>💰 Checkout</h1>
+    
+    <div class="product">
+        <h2 id="product-name">AI Writer Pro</h2>
+        <p id="product-desc">Write emails, cover letters, resumes in 30 seconds</p>
+        <div class="price" id="product-price">$5/month</div>
+    </div>
+    
+    <h3>Choose Payment Method</h3>
+    
+    <!-- Method 1: Binance Pay QR -->
+    <div class="payment-method" onclick="selectMethod('binance')">
+        <h4>🟡 Binance Pay (Recommended - 0% fees)</h4>
+        <p>Pay with crypto directly from your Binance app</p>
+        <div id="binance-pay-details" style="display:none;">
+            <div class="qr-code" id="binance-qr">[QR Code Here]</div>
+            <p>Scan with Binance app or click below</p>
+            <button class="copy-btn">Open Binance App</button>
+        </div>
+    </div>
+    
+    <!-- Method 2: USDT Direct -->
+    <div class="payment-method" onclick="selectMethod('usdt')">
+        <h4>💲 USDT (Tether) Direct - 0% fees</h4>
+        <p>Send USDT directly to our wallet (TRC20 network)</p>
+        <div id="usdt-details" style="display:none;">
+            <p><strong>Send exactly:</strong> <span id="usdt-amount">5 USDT</span></p>
+            <p><strong>To this address (TRC20):</strong></p>
+            <div class="wallet-address" id="usdt-address">YOUR_USDT_ADDRESS_HERE</div>
+            <button class="copy-btn" onclick="copyAddress('usdt')">Copy Address</button>
+            <p style="color: #ff6b6b; margin-top: 10px;">⚠️ Send only USDT on TRC20 network. Wrong network = lost funds.</p>
+        </div>
+    </div>
+    
+    <!-- Method 3: BTC Direct -->
+    <div class="payment-method" onclick="selectMethod('btc')">
+        <h4>₿ Bitcoin Direct - 0% fees</h4>
+        <p>Send BTC directly to our wallet</p>
+        <div id="btc-details" style="display:none;">
+            <p><strong>Send approximately:</strong> <span id="btc-amount">0.0001 BTC</span></p>
+            <p><strong>To this address:</strong></p>
+            <div class="wallet-address" id="btc-address">YOUR_BTC_ADDRESS_HERE</div>
+            <button class="copy-btn" onclick="copyAddress('btc')">Copy Address</button>
+        </div>
+    </div>
+    
+    <!-- Method 4: NOWPayments -->
+    <div class="payment-method" onclick="selectMethod('now')">
+        <h4>🌐 NOWPayments (100+ cryptos) - 0.4% fees</h4>
+        <p>Pay with any crypto via NOWPayments</p>
+        <div id="now-details" style="display:none;">
+            <button class="copy-btn">Pay with NOWPayments</button>
+        </div>
+    </div>
+    
+    <div class="instructions">
+        <h4>📱 After Payment:</h4>
+        <ol>
+            <li>Send the payment to the address above</li>
+            <li>Save the transaction ID (TXID)</li>
+            <li>Email us at: hasan@example.com OR message us on Telegram</li>
+            <li>Include your email and TXID</li>
+            <li>We'll activate your subscription within 1 hour</li>
+        </ol>
+    </div>
+    
+    <div style="text-align: center; margin-top: 30px; opacity: 0.7;">
+        <p>🔒 All payments go directly to our wallet. We never see your card info.</p>
+        <p>💬 Questions? Message us on Telegram</p>
+    </div>
+    
+    <script>
+        function selectMethod(method) {
+            // Hide all details
+            document.getElementById('binance-pay-details').style.display = 'none';
+            document.getElementById('usdt-details').style.display = 'none';
+            document.getElementById('btc-details').style.display = 'none';
+            document.getElementById('now-details').style.display = 'none';
+            
+            // Show selected
+            document.getElementById(method + '-details').style.display = 'block';
+        }
+        
+        function copyAddress(crypto) {
+            const address = document.getElementById(crypto + '-address').innerText;
+            navigator.clipboard.writeText(address);
+            alert('Address copied! Send exactly the amount shown.');
+        }
+    </script>
+</body>
+</html>
