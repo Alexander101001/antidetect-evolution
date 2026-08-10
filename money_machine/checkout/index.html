@@ -190,6 +190,18 @@
             <div class="method-title">💲 USDT (Tether) - TRC20 Network</div>
             <div class="method-fee">0% fees • Most popular • Instant</div>
         </div>
+        <!-- ETH Payment -->
+        <div class="payment-method" onclick="selectPayment('eth')">
+            <div class="method-title">💎 Ethereum (ETH) - ERC20</div>
+            <div class="method-fee">0% fees • Network fee only</div>
+        </div>
+        <!-- TRON Payment -->
+        <div class="payment-method" onclick="selectPayment('tron')">
+            <div class="method-title">🔺 Tron (TRX) - TRC20</div>
+            <div class="method-fee">0% fees • Very fast • Low fees</div>
+        </div>
+
+
 
         <!-- BTC Payment -->
         <div class="payment-method" onclick="selectPayment('btc')">
@@ -236,6 +248,58 @@
             <p style="margin-top: 20px; font-size: 0.9em; color: #666;">
                 ✅ After sending, click the button below and provide your TXID
             </p>
+        </div>
+
+        
+        <!-- ETH Section -->
+        <div class="qr-section" id="eth-section">
+            <h3 style="color: #333;">Pay with Ethereum (ERC20)</h3>
+            
+            <div class="amount-display">
+                Send equivalent of: <strong id="eth-amount">5.00 USD in ETH</strong>
+            </div>
+            
+            <p>Send to this Ethereum address:</p>
+            <div class="wallet-address" id="eth-address">
+                0xc41abf8f3cae240dc1f7de1c1c1370d52dc79adc
+            </div>
+            
+            <button class="copy-btn" onclick="copyEthAddress()">📋 Copy ETH Address</button>
+            
+            <div class="warning">
+                ⚠️ <strong>Important:</strong>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>Send only on <strong>ERC20 network</strong> (Ethereum mainnet)</li>
+                    <li>Wrong network = lost funds</li>
+                    <li>Gas fees will apply (~1-5 USD)</li>
+                </ul>
+            </div>
+        </div>
+
+        
+        <!-- TRON Section -->
+        <div class="qr-section" id="tron-section">
+            <h3 style="color: #333;">Pay with Tron (TRX)</h3>
+            
+            <div class="amount-display">
+                Send equivalent of: <strong id="tron-amount">5.00 USD in TRX</strong>
+            </div>
+            
+            <p>Send to this Tron address:</p>
+            <div class="wallet-address" id="tron-address">
+                TLGmFfAEvme5TQo76wehqFg8jkePujR5Fa
+            </div>
+            
+            <button class="copy-btn" onclick="copyTronAddress()">📋 Copy TRON Address</button>
+            
+            <div class="warning">
+                ⚠️ <strong>Important:</strong>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>Send only on <strong>Tron network (TRC20)</strong></li>
+                    <li>Wrong network = lost funds</li>
+                    <li>Tron has very low transaction fees</li>
+                </ul>
+            </div>
         </div>
 
         <!-- BTC Section -->
@@ -339,6 +403,18 @@
             window.open(telegramUrl, '_blank');
             
             alert('✅ Payment confirmation sent!\n\nYou will be activated within 1 hour after we verify the payment on the blockchain.');
+        }
+
+        function copyEthAddress() {
+            const address = document.getElementById('eth-address').innerText.trim();
+            navigator.clipboard.writeText(address);
+            alert('✅ ETH Address copied!\n\n' + address + '\n\nSend ETH or ERC20 tokens to this address.');
+        }
+
+        function copyTronAddress() {
+            const address = document.getElementById('tron-address').innerText.trim();
+            navigator.clipboard.writeText(address);
+            alert('✅ TRON Address copied!\n\n' + address + '\n\nSend TRX or TRC20 tokens to this address.');
         }
     </script>
 </body>
