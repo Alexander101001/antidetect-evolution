@@ -190,6 +190,12 @@
             <div class="method-title">💲 USDT (Tether) - TRC20 Network</div>
             <div class="method-fee">0% fees • Most popular • Instant</div>
         </div>
+        <!-- USDG Payment -->
+        <div class="payment-method" onclick="selectPayment('usdg')">
+            <div class="method-title">💵 USDG (Global Dollar) - TRC20</div>
+            <div class="method-fee">0% fees • Stablecoin</div>
+        </div>
+
         <!-- ETH Payment -->
         <div class="payment-method" onclick="selectPayment('eth')">
             <div class="method-title">💎 Ethereum (ETH) - ERC20</div>
@@ -251,6 +257,32 @@
         </div>
 
         
+        
+        <!-- USDG Section -->
+        <div class="qr-section" id="usdg-section">
+            <h3 style="color: #333;">Pay with USDG (TRC20)</h3>
+            
+            <div class="amount-display">
+                Send exactly: <strong id="usdg-amount">5.00 USDG</strong>
+            </div>
+            
+            <p>Send to this address (same as USDT):</p>
+            <div class="wallet-address" id="usdg-address">
+                XKOc41abf8f3cae240dc1f7de1c1c1370d52dc79adc
+            </div>
+            
+            <button class="copy-btn" onclick="copyUsdgAddress()">📋 Copy Address</button>
+            
+            <div class="warning">
+                ⚠️ <strong>Important:</strong>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>Send only <strong>USDG on TRC20 network</strong></li>
+                    <li>Wrong token or network = lost funds</li>
+                    <li>This is the same address as USDT wallet</li>
+                </ul>
+            </div>
+        </div>
+
         <!-- ETH Section -->
         <div class="qr-section" id="eth-section">
             <h3 style="color: #333;">Pay with Ethereum (ERC20)</h3>
@@ -304,9 +336,30 @@
 
         <!-- BTC Section -->
         <div class="qr-section" id="btc-section">
-            <h3 style="color: #333;">Pay with Bitcoin</h3>
-            <p>Contact us for BTC wallet address</p>
-            <p>Telegram: @my_sovereign_market_bot</p>
+            <h3 style="color: #333;">Pay with Bitcoin (BTC)</h3>
+            
+            <div class="amount-display">
+                Send approximately: <strong id="btc-amount">0.0001 BTC</strong>
+                <br>
+                <small style="color: #666;">(Equivalent to $5 USD - rate changes)</small>
+            </div>
+            
+            <p>Send to this Bitcoin address:</p>
+            <div class="wallet-address" id="btc-address">
+                bc1pgll2ckk7zwemtputh49rncnh77tav8dstxv2rvwzwp96ap5uyzpsnfppqp
+            </div>
+            
+            <button class="copy-btn" onclick="copyBtcAddress()">📋 Copy BTC Address</button>
+            
+            <div class="warning">
+                ⚠️ <strong>Important:</strong>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>Send only on <strong>Bitcoin network</strong></li>
+                    <li>Network fee: ~1-5 USD</li>
+                    <li>Confirmation time: 10-60 minutes</li>
+                    <li>Amount may vary with BTC price</li>
+                </ul>
+            </div>
         </div>
 
         <!-- Binance Pay Section -->
@@ -415,6 +468,18 @@
             const address = document.getElementById('tron-address').innerText.trim();
             navigator.clipboard.writeText(address);
             alert('✅ TRON Address copied!\n\n' + address + '\n\nSend TRX or TRC20 tokens to this address.');
+        }
+
+        function copyUsdgAddress() {
+            const address = document.getElementById('usdg-address').innerText.trim();
+            navigator.clipboard.writeText(address);
+            alert('✅ USDG Address copied!\n\n' + address + '\n\nSend USDG tokens on TRC20 network.');
+        }
+
+        function copyBtcAddress() {
+            const address = document.getElementById('btc-address').innerText.trim();
+            navigator.clipboard.writeText(address);
+            alert('✅ BTC Address copied!\n\n' + address + '\n\nSend Bitcoin to this address. Amount may vary.');
         }
     </script>
 </body>
