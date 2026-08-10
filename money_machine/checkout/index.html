@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - AI Suite</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            color: white;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            opacity: 0.7;
+            margin-bottom: 40px;
+        }
+        .product-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        .product-name {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #667eea;
+        }
+        .product-price {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .payment-method {
+            background: rgba(255,255,255,0.05);
+            border: 2px solid transparent;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 15px 0;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .payment-method:hover {
+            background: rgba(255,255,255,0.1);
+            border-color: #667eea;
+        }
+        .payment-method.active {
+            border-color: #667eea;
+            background: rgba(102, 126, 234, 0.1);
+        }
+        .method-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .method-fee {
+            font-size: 0.9em;
+            opacity: 0.7;
+        }
+        .qr-section {
+            display: none;
+            background: white;
+            color: black;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .qr-section.active {
+            display: block;
+        }
+        .qr-code {
+            width: 250px;
+            height: 250px;
+            background: #f0f0f0;
+            margin: 20px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #333;
+        }
+        .wallet-address {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 0.9em;
+            word-break: break-all;
+            margin: 15px 0;
+            border: 1px solid #ddd;
+        }
+        .copy-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 10px;
+        }
+        .copy-btn:hover {
+            background: #5568d3;
+        }
+        .amount-display {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-size: 1.1em;
+        }
+        .warning {
+            background: #fff3cd;
+            color: #856404;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            border: 1px solid #ffeaa7;
+        }
+        .instructions {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .instructions h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        .instructions ol {
+            margin-left: 20px;
+        }
+        .instructions li {
+            margin: 10px 0;
+        }
+        .secure {
+            text-align: center;
+            margin-top: 30px;
+            opacity: 0.6;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💰 Checkout</h1>
+        <p class="subtitle">AI Suite - Professional AI Tools</p>
+
+        <!-- Product Selection -->
+        <div class="product-card">
+            <div class="product-name" id="product-name">AI Writer Pro</div>
+            <div style="opacity: 0.8;" id="product-desc">
+                Write emails, cover letters, resumes, blog posts in 30 seconds
+            </div>
+            <div class="product-price" id="product-price">$5<span style="font-size: 0.3em;">/month</span></div>
+            
+            <label style="display:block; margin-top: 15px;">Choose product:</label>
+            <select id="product-select" style="width:100%; padding:10px; margin-top:5px; background:#1a1a2e; color:white; border:1px solid #333; border-radius:5px;">
+                <option value="ai-writer">AI Writer Pro - $5/month</option>
+                <option value="ai-code">AI Code Helper - $29/month</option>
+                <option value="ai-resume">AI Resume Builder - $19/month</option>
+                <option value="ai-bundle">Complete AI Bundle - $49/month</option>
+                <option value="freelancer">Freelancer Toolkit - $99/month</option>
+                <option value="bg-remover">AI Background Remover - $0.50/image</option>
+                <option value="upscaler">Image Upscaler - $1/image</option>
+                <option value="headshot">AI Headshot - $5/image</option>
+                <option value="logo">AI Logo Maker - $10/logo</option>
+                <option value="pdf-summarizer">AI PDF Summarizer - $0.25/PDF</option>
+            </select>
+        </div>
+
+        <h3 style="margin-bottom: 15px;">Choose Payment Method</h3>
+
+        <!-- USDT Payment -->
+        <div class="payment-method active" onclick="selectPayment('usdt')">
+            <div class="method-title">💲 USDT (Tether) - TRC20 Network</div>
+            <div class="method-fee">0% fees • Most popular • Instant</div>
+        </div>
+
+        <!-- BTC Payment -->
+        <div class="payment-method" onclick="selectPayment('btc')">
+            <div class="method-title">₿ Bitcoin (BTC)</div>
+            <div class="method-fee">0% fees • Network fee only</div>
+        </div>
+
+        <!-- Binance Pay -->
+        <div class="payment-method" onclick="selectPayment('binance')">
+            <div class="method-title">🟡 Binance Pay</div>
+            <div class="method-fee">0% fees • Pay with Binance app</div>
+        </div>
+
+        <!-- NOWPayments -->
+        <div class="payment-method" onclick="selectPayment('now')">
+            <div class="method-title">🌐 NOWPayments (100+ cryptos)</div>
+            <div class="method-fee">0.4% fees • Many payment options</div>
+        </div>
+
+        <!-- QR Section for USDT -->
+        <div class="qr-section active" id="usdt-section">
+            <h3 style="color: #333;">Pay with USDT (TRC20)</h3>
+            
+            <div class="amount-display">
+                Send exactly: <strong id="usdt-amount">5.00 USDT</strong>
+            </div>
+            
+            <p>Send to this wallet address:</p>
+            <div class="wallet-address" id="usdt-address">
+                XKOc41abf8f3cae240dc1f7de1c1c1370d52dc79adc
+            </div>
+            
+            <button class="copy-btn" onclick="copyAddress()">📋 Copy Address</button>
+            
+            <div class="warning">
+                ⚠️ <strong>Important:</strong>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>Send only USDT on <strong>TRC20 network</strong></li>
+                    <li>Wrong network = lost funds</li>
+                    <li>Send the exact amount shown</li>
+                </ul>
+            </div>
+            
+            <p style="margin-top: 20px; font-size: 0.9em; color: #666;">
+                ✅ After sending, click the button below and provide your TXID
+            </p>
+        </div>
+
+        <!-- BTC Section -->
+        <div class="qr-section" id="btc-section">
+            <h3 style="color: #333;">Pay with Bitcoin</h3>
+            <p>Contact us for BTC wallet address</p>
+            <p>Telegram: @my_sovereign_market_bot</p>
+        </div>
+
+        <!-- Binance Pay Section -->
+        <div class="qr-section" id="binance-section">
+            <h3 style="color: #333;">Pay with Binance Pay</h3>
+            <p>Coming soon - needs merchant account setup</p>
+            <p>Telegram: @my_sovereign_market_bot</p>
+        </div>
+
+        <!-- NOWPayments Section -->
+        <div class="qr-section" id="now-section">
+            <h3 style="color: #333;">Pay with NOWPayments</h3>
+            <p>Coming soon - 100+ cryptocurrencies</p>
+            <p>Telegram: @my_sovereign_market_bot</p>
+        </div>
+
+        <!-- Confirmation -->
+        <div class="instructions">
+            <h3>📱 After Payment</h3>
+            <ol>
+                <li>Send the exact amount to the address above</li>
+                <li>Save your Transaction ID (TXID)</li>
+                <li>Click the button below</li>
+                <li>Enter your email and TXID</li>
+                <li>Get activated within 1 hour</li>
+            </ol>
+            
+            <button class="copy-btn" style="width:100%; margin-top: 20px;" onclick="confirmPayment()">
+                ✅ I Have Paid - Activate My Subscription
+            </button>
+        </div>
+
+        <div class="secure">
+            🔒 Secure payment • Money goes directly to our wallet<br>
+            💬 Questions? Telegram: @my_sovereign_market_bot<br>
+            📧 Email: support@aiwriterpro.com
+        </div>
+    </div>
+
+    <script>
+        const PRODUCTS = {
+            'ai-writer': { name: 'AI Writer Pro', price: 5, desc: 'Write emails, cover letters, resumes in 30 seconds' },
+            'ai-code': { name: 'AI Code Helper', price: 29, desc: 'Generate code, debug, refactor. 10+ languages' },
+            'ai-resume': { name: 'AI Resume Builder', price: 19, desc: 'Professional resumes and cover letters' },
+            'ai-bundle': { name: 'Complete AI Bundle', price: 49, desc: 'All AI tools in one subscription' },
+            'freelancer': { name: 'Freelancer Toolkit', price: 99, desc: 'Everything for freelancers' },
+            'bg-remover': { name: 'AI Background Remover', price: 0.50, desc: 'Remove image backgrounds' },
+            'upscaler': { name: 'Image Upscaler', price: 1, desc: 'Upscale image resolution' },
+            'headshot': { name: 'AI Headshot', price: 5, desc: 'Professional headshots' },
+            'logo': { name: 'AI Logo Maker', price: 10, desc: 'AI logo design' },
+            'pdf-summarizer': { name: 'AI PDF Summarizer', price: 0.25, desc: 'Summarize PDF documents' }
+        };
+
+        document.getElementById('product-select').addEventListener('change', function() {
+            const product = PRODUCTS[this.value];
+            document.getElementById('product-name').textContent = product.name;
+            document.getElementById('product-desc').textContent = product.desc;
+            document.getElementById('product-price').innerHTML = '$' + product.price + '<span style="font-size: 0.3em;">/month</span>';
+            document.getElementById('usdt-amount').textContent = product.price.toFixed(2) + ' USDT';
+        });
+
+        function selectPayment(method) {
+            // Hide all sections
+            document.querySelectorAll('.qr-section').forEach(s => s.classList.remove('active'));
+            document.querySelectorAll('.payment-method').forEach(m => m.classList.remove('active'));
+            
+            // Show selected
+            document.getElementById(method + '-section').classList.add('active');
+            event.currentTarget.classList.add('active');
+        }
+
+        function copyAddress() {
+            const address = document.getElementById('usdt-address').innerText.trim();
+            navigator.clipboard.writeText(address);
+            alert('✅ Address copied!\n\n' + address + '\n\nSend the exact USDT amount shown to this address on TRC20 network.');
+        }
+
+        function confirmPayment() {
+            const product = document.getElementById('product-select').value;
+            const productName = PRODUCTS[product].name;
+            const price = PRODUCTS[product].price;
+            
+            const txid = prompt('Enter your Transaction ID (TXID):');
+            if (!txid) return;
+            
+            const email = prompt('Enter your email for activation:');
+            if (!email) return;
+            
+            // Send to Telegram bot
+            const message = `💰 NEW PAYMENT!\n\nProduct: ${productName}\nPrice: $${price}\nEmail: ${email}\nTXID: ${txid}\n\nPlease verify and activate.`;
+            
+            // Open Telegram with pre-filled message
+            const telegramUrl = `https://t.me/my_sovereign_market_bot?text=${encodeURIComponent(message)}`;
+            window.open(telegramUrl, '_blank');
+            
+            alert('✅ Payment confirmation sent!\n\nYou will be activated within 1 hour after we verify the payment on the blockchain.');
+        }
+    </script>
+</body>
+</html>
